@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1639006451889,
+  "lastUpdate": 1639007649578,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -13211,6 +13211,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 69807,
             "range": "± 1445",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "distinct": true,
+          "id": "a3fc6cbd4dce89d381f56ef1172c134e2edbf286",
+          "message": "Fix hydration counters",
+          "timestamp": "2021-12-08T15:50:03-08:00",
+          "tree_id": "83dd27de7ba11e61c306fd80343f75c979213b43",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/a3fc6cbd4dce89d381f56ef1172c134e2edbf286"
+        },
+        "date": 1639007648911,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 66826,
+            "range": "± 509",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 521489,
+            "range": "± 2351",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 19775,
+            "range": "± 75",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 38992,
+            "range": "± 46",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1681,
+            "range": "± 2",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 71239,
+            "range": "± 1286",
             "unit": "ns/iter"
           }
         ]
