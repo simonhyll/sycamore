@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638898529711,
+  "lastUpdate": 1639006451889,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -13151,6 +13151,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 71182,
             "range": "± 880",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "07333c23723f6de6215d5c9c338ad5cb44e68bac",
+          "message": "Fix website npm script (#313)\n\n* Fix npm production script not building docs\r\n\r\n* Remove responsive temporarily",
+          "timestamp": "2021-12-08T15:30:11-08:00",
+          "tree_id": "f3178f992d4d69308a7be7afa31e15e268068adf",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/07333c23723f6de6215d5c9c338ad5cb44e68bac"
+        },
+        "date": 1639006450407,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 53033,
+            "range": "± 392",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 508804,
+            "range": "± 2554",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 19823,
+            "range": "± 25",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 41179,
+            "range": "± 41",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1758,
+            "range": "± 5",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 69807,
+            "range": "± 1445",
             "unit": "ns/iter"
           }
         ]
