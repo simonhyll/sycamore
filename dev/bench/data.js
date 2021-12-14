@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1639022589502,
+  "lastUpdate": 1639501961315,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -13511,6 +13511,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 84576,
             "range": "± 176",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "43192714+langbamit@users.noreply.github.com",
+            "name": "langbamit",
+            "username": "langbamit"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6572ea570719e66a3b67811ad4a1219691476cb2",
+          "message": "Support Rust 2021 edition in macro codegen (#316)\n\nFix a codegen issue with hydration producing invalid syntax in Rust 2021 edition.",
+          "timestamp": "2021-12-14T17:08:48Z",
+          "tree_id": "80a5ec5d57179005dc70bb8bf1216e53463fe1ea",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/6572ea570719e66a3b67811ad4a1219691476cb2"
+        },
+        "date": 1639501959864,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 69128,
+            "range": "± 228",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 524647,
+            "range": "± 2293",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 19899,
+            "range": "± 27",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 39042,
+            "range": "± 30",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1682,
+            "range": "± 2",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 70237,
+            "range": "± 74",
             "unit": "ns/iter"
           }
         ]
