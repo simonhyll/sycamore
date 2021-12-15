@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1639502072387,
+  "lastUpdate": 1639600225481,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -13631,6 +13631,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 80043,
             "range": "± 1771",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7dc8cbeb8ac059e52f61274b2dea2dc42ce32939",
+          "message": "Hack to fix duplicate text when hydrating (#321)",
+          "timestamp": "2021-12-15T12:26:18-08:00",
+          "tree_id": "177593054f3265f6cf8292680adc2a0241122f3e",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/7dc8cbeb8ac059e52f61274b2dea2dc42ce32939"
+        },
+        "date": 1639600223797,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 78861,
+            "range": "± 1696",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 620988,
+            "range": "± 23879",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 23138,
+            "range": "± 470",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 46043,
+            "range": "± 1050",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1998,
+            "range": "± 89",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 86251,
+            "range": "± 1476",
             "unit": "ns/iter"
           }
         ]
