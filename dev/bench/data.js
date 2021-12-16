@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1639600225481,
+  "lastUpdate": 1639626312080,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -13691,6 +13691,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 86251,
             "range": "± 1476",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8d0239c87d3e07df860f595c7d5ac067852f583b",
+          "message": "Make builder API play well with hydration (#322)",
+          "timestamp": "2021-12-16T03:41:22Z",
+          "tree_id": "19aa756548f76b196b6a7a9a222f4e766b32710b",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/8d0239c87d3e07df860f595c7d5ac067852f583b"
+        },
+        "date": 1639626310662,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 68104,
+            "range": "± 182",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 520983,
+            "range": "± 2392",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 19115,
+            "range": "± 25",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 39036,
+            "range": "± 63",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1668,
+            "range": "± 4",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 74391,
+            "range": "± 1314",
             "unit": "ns/iter"
           }
         ]
