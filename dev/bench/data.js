@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1639631891802,
+  "lastUpdate": 1639720584942,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -13931,6 +13931,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 74557,
             "range": "± 355",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "galaster@foxmail.com",
+            "name": "SasakiSaki",
+            "username": "oovm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b9c308904063cee663d271b560ee4219951bff0a",
+          "message": "Make SsrNode attribute order stable (#323)\n\nThis makes it possible to use SSR'd output as snapshot test by making the attribute order deterministic.\r\n\r\n* Stable output of render_to_string\r\n\r\n* Run cargo fmt & cargo clippy\r\n\r\n* The output result of `render_to_string` is now fixed\r\n\r\n* Rearrange the import order",
+          "timestamp": "2021-12-16T21:51:54-08:00",
+          "tree_id": "5a4f1b60b646a3a3289f84ce46f76a4a1b7658d2",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/b9c308904063cee663d271b560ee4219951bff0a"
+        },
+        "date": 1639720583593,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 76377,
+            "range": "± 3533",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 608583,
+            "range": "± 31428",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 21840,
+            "range": "± 1382",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 42728,
+            "range": "± 1641",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1938,
+            "range": "± 101",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 88877,
+            "range": "± 5100",
             "unit": "ns/iter"
           }
         ]
