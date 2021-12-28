@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1639720584942,
+  "lastUpdate": 1640728051232,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -13991,6 +13991,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 88877,
             "range": "± 5100",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "31190113+attriaayush@users.noreply.github.com",
+            "name": "Aayush Attri",
+            "username": "attriaayush"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0194a5ddf2a2e4c8be26387fc51ad6cbbd7ee2a5",
+          "message": "An HTTP request example and a tailwindcss styling example (#305)\n\n* adding an example that fetches data over network and styling using tailwindcss\r\n\r\n* updating the root cargo.toml to include new example\r\n\r\n* removing the tailwindcss setup\r\n\r\n* extending the page visit counter example to include tailwindcss setup\r\n\r\n* updating the root cargo.toml to include new examples\r\n\r\n* removing link to tailwind\r\n\r\nUpdate examples/page-visit-counter-tailwindcss/Trunk.toml\r\n\r\nCo-authored-by: Luke Chu <37006668+lukechu10@users.noreply.github.com>\r\n\r\nUpdate examples/page-visit-counter-tailwindcss/src/main.rs\r\n\r\nCo-authored-by: Luke Chu <37006668+lukechu10@users.noreply.github.com>\r\n\r\nUpdate examples/page-visit-counter-tailwindcss/src/main.rs\r\n\r\nCo-authored-by: Luke Chu <37006668+lukechu10@users.noreply.github.com>\r\n\r\n* addressing comments\r\n\r\n* Update reqwasm to v0.4.0 and remove non-tailwind example\r\n\r\nThe non-tailwind example is not needed and is only duplicate code\r\n\r\nCo-authored-by: Luke Chu <37006668+lukechu10@users.noreply.github.com>",
+          "timestamp": "2021-12-28T13:43:23-08:00",
+          "tree_id": "13977c1280f789e61cb5b7894fcf91e4064d7c12",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/0194a5ddf2a2e4c8be26387fc51ad6cbbd7ee2a5"
+        },
+        "date": 1640728050005,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 71621,
+            "range": "± 2837",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 558597,
+            "range": "± 22882",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 20893,
+            "range": "± 1257",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 40540,
+            "range": "± 1982",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1799,
+            "range": "± 91",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 83746,
+            "range": "± 2827",
             "unit": "ns/iter"
           }
         ]
