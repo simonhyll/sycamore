@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1640728051232,
+  "lastUpdate": 1640797317847,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -14051,6 +14051,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 83746,
             "range": "± 2827",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bfafaafb3b9908d781e6ad58144cbbdabb4d51e4",
+          "message": "Add `.map` utility for `ReadSignal` as a wrapper around `create_memo` (#326)\n\n* Add .map shorthand for Signal\r\n\r\n* Add some docs",
+          "timestamp": "2021-12-29T08:57:45-08:00",
+          "tree_id": "19cc11996385ecfda00963ee2056dc66c5363984",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/bfafaafb3b9908d781e6ad58144cbbdabb4d51e4"
+        },
+        "date": 1640797317206,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 83207,
+            "range": "± 5016",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 622925,
+            "range": "± 3263",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 23981,
+            "range": "± 1732",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 46674,
+            "range": "± 34",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1976,
+            "range": "± 8",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 95824,
+            "range": "± 220",
             "unit": "ns/iter"
           }
         ]
