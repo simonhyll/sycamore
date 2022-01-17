@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642212510470,
+  "lastUpdate": 1642453175475,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -14231,6 +14231,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 78784,
             "range": "± 118",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "lictex_steaven@outlook.com",
+            "name": "lictex_",
+            "username": "xyning"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "56e8f048061e6ec99f424eef9242cabb15ec15c6",
+          "message": "Website improvements for small screens (#331)\n\n* Show a hamburger menu\r\n\r\n* fix mobile website rendering\r\n\r\n* implement a hamburger menu for the website\r\nalso some minor tweaks for small screens\r\n\r\nCo-authored-by: Luke Chu <37006668+lukechu10@users.noreply.github.com>",
+          "timestamp": "2022-01-17T12:55:55-08:00",
+          "tree_id": "8a59d0c85e0aa953bc267725686d1d038fc58988",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/56e8f048061e6ec99f424eef9242cabb15ec15c6"
+        },
+        "date": 1642453174898,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 59992,
+            "range": "± 3004",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 491537,
+            "range": "± 24651",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 18564,
+            "range": "± 984",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 38577,
+            "range": "± 1998",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1550,
+            "range": "± 106",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 77190,
+            "range": "± 5391",
             "unit": "ns/iter"
           }
         ]
