@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642453175475,
+  "lastUpdate": 1643516204471,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -14291,6 +14291,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 77190,
             "range": "± 5391",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ca56171d7554c7a7f844a394d5877ded62b3fb0a",
+          "message": "Reactive Primitives v2! 🎉 (#337)\n\n* replace with new code\r\n\r\n* Fix compile errors\r\n\r\n* Add SSR benchmark back\r\n\r\n* Update MSRV from 1.53.0 to 1.57.0\r\n\r\nThis change is required, first of all, to satisfy bumpalo whose MSRV is 1.54.0, second of all, because edition 2021 support is required for new reactivity system.\r\n\r\n* Update MSRV from 1.57.0 to 1.58.0 for identifies in format\r\n\r\n* Temporarily silence clippy\r\n\r\nBug in wasm-bindgen codegen triggering clippy lint\r\n\r\n* Add children support\r\n\r\n* Update Router naming to be consistent\r\n\r\n* Fix trybuild UI tests\r\n\r\n* Update router to take advantage of new reactive system\r\n\r\n* Fix website build\r\n\r\n* Re-add all website features\r\n\r\n* Fix website versions\r\n\r\n* Use dynamic dispatch to reduce code-bloat for create_effect\r\n\r\n* Add tests for signal Debug and Display implementations\r\n\r\n* Fix soundness bug with create_child_scope\r\n\r\nSee description of create_child_scope_tracked\r\n\r\n* Add raf demo\r\n\r\n* Add tweened signals\r\n\r\n* Add portals\r\n\r\n* Re-enable integration tests for Portal\r\n\r\n* Update getting_started section in docs\r\n\r\n* Fix support for custom elements in sycamore-macro\r\n\r\n* Update docs in basics\r\n\r\n* Update missed docs\r\n\r\n* Update advanced docs\r\n\r\n* Fix soundness bug in sycamore-reactive\r\n\r\n* Remove unsafe fn create_child_scope_tracked\r\n\r\nThis is no longer needed now that the soundness bug regarding signals that are destroyed before effects complete is fixed.\r\n\r\n* For some reason, `bind:value` syntax works again\r\n\r\nMaybe it's because of edition 2021?\r\n\r\n* Generate slightly less code for components in view!",
+          "timestamp": "2022-01-29T20:12:35-08:00",
+          "tree_id": "b685459137119bc12ef6b040adae496226a198fd",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/ca56171d7554c7a7f844a394d5877ded62b3fb0a"
+        },
+        "date": 1643516203081,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 42532,
+            "range": "± 705",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 298517,
+            "range": "± 385",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 56043,
+            "range": "± 442",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 69465,
+            "range": "± 173",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1306,
+            "range": "± 1",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 68434,
+            "range": "± 180",
             "unit": "ns/iter"
           }
         ]
