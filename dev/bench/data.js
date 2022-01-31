@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1643600201094,
+  "lastUpdate": 1643602889589,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -14651,6 +14651,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 70999,
             "range": "± 529",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "distinct": true,
+          "id": "821ea66d9a21f26bac318a0464189fcc157b4380",
+          "message": "Remove outline class from wrapper div element",
+          "timestamp": "2022-01-30T20:16:42-08:00",
+          "tree_id": "8b608cf99559dad335d925a5fae25465e7ac4ae0",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/821ea66d9a21f26bac318a0464189fcc157b4380"
+        },
+        "date": 1643602888918,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 53980,
+            "range": "± 2488",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 310428,
+            "range": "± 16837",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 64105,
+            "range": "± 5791",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 80479,
+            "range": "± 5525",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1393,
+            "range": "± 108",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 74627,
+            "range": "± 4129",
             "unit": "ns/iter"
           }
         ]
