@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1643821044178,
+  "lastUpdate": 1643949935718,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -14951,6 +14951,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 68252,
             "range": "± 125",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "de89dab817836da4c7459b78e5d2f016fdfcec17",
+          "message": "Make dispose an unsafe fn (#344)\n\n* Make dispose an unsafe fn\r\n\r\n* Remove test file\r\n\r\n* Fix tests\r\n\r\n* Fix doc tests",
+          "timestamp": "2022-02-03T20:41:07-08:00",
+          "tree_id": "eb1f895e612fb5a3d6749382bc0ce88bf9804eb6",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/de89dab817836da4c7459b78e5d2f016fdfcec17"
+        },
+        "date": 1643949934939,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 52313,
+            "range": "± 47",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 339561,
+            "range": "± 212",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 75570,
+            "range": "± 2735",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 100677,
+            "range": "± 372",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1534,
+            "range": "± 2",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 85734,
+            "range": "± 97",
             "unit": "ns/iter"
           }
         ]
