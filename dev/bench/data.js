@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1644120893765,
+  "lastUpdate": 1644122220177,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -15131,6 +15131,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 71496,
             "range": "± 375",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2bb3eb0554c1c43e00f478c38191bf67f07ff39b",
+          "message": "Add unit test for Signal::split (#346)\n\n* Add unit test for Signal::split\r\n\r\n* Fix compile error\r\n\r\n* Re-enable ssr bind test",
+          "timestamp": "2022-02-05T20:32:42-08:00",
+          "tree_id": "7c719957df20cd77c1c3c67b7dc4ed5e07e64666",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/2bb3eb0554c1c43e00f478c38191bf67f07ff39b"
+        },
+        "date": 1644122218776,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 42561,
+            "range": "± 38",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 313840,
+            "range": "± 1401",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 63546,
+            "range": "± 3408",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 83597,
+            "range": "± 124",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1268,
+            "range": "± 1",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 71779,
+            "range": "± 90",
             "unit": "ns/iter"
           }
         ]
