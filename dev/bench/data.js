@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1644290295756,
+  "lastUpdate": 1644361673917,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -15311,6 +15311,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 72213,
             "range": "± 79",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "923c23c3164d4ada8835d046ba699989df537aa9",
+          "message": "Transitions (#353)\n\n* Add docs for Suspense\r\n\r\n* Add some docs for Suspense and await_suspense\r\n\r\n* Add TransitionHandle\r\n\r\n* Add some more docs\r\n\r\n* Refactor Suspense implementation to not use nested contexts\r\n\r\n* wip\r\n\r\n* Fix transitions suspense tracking\r\n\r\n* Add unit test for transitions\r\n\r\n* Remove ContextProvider",
+          "timestamp": "2022-02-08T15:02:44-08:00",
+          "tree_id": "eac6b901289782d4bbbd57ac603ac10a4bdc1733",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/923c23c3164d4ada8835d046ba699989df537aa9"
+        },
+        "date": 1644361673060,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 57200,
+            "range": "± 2765",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 363152,
+            "range": "± 25350",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 80311,
+            "range": "± 6272",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 105587,
+            "range": "± 6781",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1622,
+            "range": "± 93",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 89902,
+            "range": "± 6172",
             "unit": "ns/iter"
           }
         ]
