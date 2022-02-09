@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1644383281460,
+  "lastUpdate": 1644440515884,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -15431,6 +15431,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 69737,
             "range": "± 122",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bfad5df6c58dd52ba7b94a290bd6d5f347e61678",
+          "message": "Add workflow for monitoring performance (#355)\n\n* Add workflow\r\n\r\n* Fix workflow typo\r\n\r\n* Install trunk v0.14.0\r\n\r\n* Fix missing Rust target\r\n\r\n* Fix cp command\r\n\r\n* Fix configure_bench commands\r\n\r\n* Fix writeFileSync options\r\n\r\n* Fix workflow\r\n\r\n* Fix workflow commands\r\n\r\n* Fix path for results.json",
+          "timestamp": "2022-02-09T12:57:11-08:00",
+          "tree_id": "aa5a0387f6da88a85f92a47033a8776ba09cfe54",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/bfad5df6c58dd52ba7b94a290bd6d5f347e61678"
+        },
+        "date": 1644440515090,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 50560,
+            "range": "± 1361",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 334220,
+            "range": "± 11422",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 70490,
+            "range": "± 3661",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 96129,
+            "range": "± 3157",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1446,
+            "range": "± 52",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 81252,
+            "range": "± 3049",
             "unit": "ns/iter"
           }
         ]
