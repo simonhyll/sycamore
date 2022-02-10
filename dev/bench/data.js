@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1644511861637,
+  "lastUpdate": 1644536371871,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -15731,6 +15731,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 69593,
             "range": "± 87",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e4dcf624a5f16e8d0fcff2e3c7347a6c3c7f8723",
+          "message": "Remove lexical and pass number directly to JS (#360)\n\n* Remove lexical and pass number directly to JS\r\n\r\n* Fix html header levels in docs\r\n\r\n* Improve docs build tool",
+          "timestamp": "2022-02-10T15:35:13-08:00",
+          "tree_id": "4d1c4c1e768d5f3eed0bcab133e9c8119c227af8",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/e4dcf624a5f16e8d0fcff2e3c7347a6c3c7f8723"
+        },
+        "date": 1644536370363,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 42323,
+            "range": "± 331",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 257700,
+            "range": "± 395",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 46703,
+            "range": "± 160",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 66674,
+            "range": "± 56",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1281,
+            "range": "± 2",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 70387,
+            "range": "± 61",
             "unit": "ns/iter"
           }
         ]
