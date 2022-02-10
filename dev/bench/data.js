@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1644472969664,
+  "lastUpdate": 1644511861637,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -15671,6 +15671,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 69024,
             "range": "± 134",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "19b2cffceb83496b30f0eccb1557858efc971229",
+          "message": "Remove unnecessary heap allocation in create_effect (#359)\n\n* Remove unnecessary heap allocation in create_effect\r\n\r\n* Use top-level RefCell\r\n\r\n* Move parent out of inner\r\n\r\n* Prevent creating an useless memo for dynamic views\r\n\r\n* Only call borrow_mut once in dispose\r\n\r\n* Re-enable wasm-opt",
+          "timestamp": "2022-02-10T08:46:47-08:00",
+          "tree_id": "ac8b7aee739f2a0c6801e05ba5b67a009f3d4583",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/19b2cffceb83496b30f0eccb1557858efc971229"
+        },
+        "date": 1644511860016,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 42690,
+            "range": "± 44",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 260852,
+            "range": "± 564",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 47234,
+            "range": "± 130",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 66893,
+            "range": "± 70",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1277,
+            "range": "± 3",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 69593,
+            "range": "± 87",
             "unit": "ns/iter"
           }
         ]
