@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1645077709774,
+  "lastUpdate": 1645127558058,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -16031,6 +16031,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 67215,
             "range": "± 149",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9b7ea15877b28fe58fc3ae435eb20819eb0d379a",
+          "message": "Create a new nested scope if `ctx` is used within a dyn fragment (#364)\n\n* Create a new nested scope if ctx is used within dyn\r\n\r\n* Add a unit test for needs_ctx\r\n\r\n* Fix test\r\n\r\n* Fix needs_ctx\r\n\r\n* Make sure the right ctx identifier is used in Codegen\r\n\r\n* Add an additional test for context with existing type\r\n\r\n* Exclude context should_panic test from miri",
+          "timestamp": "2022-02-17T11:48:14-08:00",
+          "tree_id": "1a7f4fd7c3f8b92ad77c9f6bcf4a0cb4ba7ead19",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/9b7ea15877b28fe58fc3ae435eb20819eb0d379a"
+        },
+        "date": 1645127556495,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 39201,
+            "range": "± 477",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 286730,
+            "range": "± 262",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 44590,
+            "range": "± 269",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 65240,
+            "range": "± 1488",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1321,
+            "range": "± 2",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 67833,
+            "range": "± 987",
             "unit": "ns/iter"
           }
         ]
