@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1645493249917,
+  "lastUpdate": 1645755444468,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -16151,6 +16151,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 73694,
             "range": "± 3816",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alsuren@gmail.com",
+            "name": "David Laban",
+            "username": "alsuren"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d7475e37e3b95e3f9aae113fc4e4cc665729d0f7",
+          "message": "port builder example to 0.8 (#369)\n\n* resurrect hello-builder example\r\n\r\n* port builder example to 0.8\r\n\r\n* Fix clippy errors\r\n\r\nCo-authored-by: Luke Chu <lukewchu@outlook.com>",
+          "timestamp": "2022-02-24T18:12:37-08:00",
+          "tree_id": "66e8ff02c83cc6c894444607ed94f9db129caa90",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/d7475e37e3b95e3f9aae113fc4e4cc665729d0f7"
+        },
+        "date": 1645755443755,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 51781,
+            "range": "± 934",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 323927,
+            "range": "± 181",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 58431,
+            "range": "± 111",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 84076,
+            "range": "± 63",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1552,
+            "range": "± 2",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 86603,
+            "range": "± 122",
             "unit": "ns/iter"
           }
         ]
