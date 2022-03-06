@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1646606575045,
+  "lastUpdate": 1646607803126,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -16451,6 +16451,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 69553,
             "range": "± 405",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c193a59cd637de62cd1d87bda319ee7313ac1570",
+          "message": "Add some docs to `sycamore-futures` and deprecate `create_resource` (#376)\n\n* BREAKING CHANGE: Rename spawn_future to spawn_local\r\n\r\n* Add some docs and deprecate create_resource",
+          "timestamp": "2022-03-06T14:59:42-08:00",
+          "tree_id": "b22a60a5e4677c8161884fd8662057d8ff543aaa",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/c193a59cd637de62cd1d87bda319ee7313ac1570"
+        },
+        "date": 1646607801617,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 41004,
+            "range": "± 18",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 259387,
+            "range": "± 423",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 48782,
+            "range": "± 472",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 67138,
+            "range": "± 92",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1263,
+            "range": "± 10",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 69643,
+            "range": "± 79",
             "unit": "ns/iter"
           }
         ]
