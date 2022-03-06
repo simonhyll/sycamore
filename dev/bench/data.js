@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1646537485366,
+  "lastUpdate": 1646586721920,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -16331,6 +16331,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 61640,
             "range": "± 255",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "879501d954ce004d6c05c70ced2992c7bd1c7499",
+          "message": "Fix top-level dynamics nodes with hydration (#374)\n\n* Re-enable builder hydration tests\r\n\r\n* format\r\n\r\n* Provide parent children as initial nodes to insert\r\n\r\n* Add docs for the builder API\r\n\r\nBREAKING CHANGE: rename experimental-builder-agnostic to builder",
+          "timestamp": "2022-03-06T17:07:58Z",
+          "tree_id": "9637e5112f89e30be9409a62a0428188a7b48f73",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/879501d954ce004d6c05c70ced2992c7bd1c7499"
+        },
+        "date": 1646586721133,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 47263,
+            "range": "± 1964",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 290268,
+            "range": "± 14945",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 48457,
+            "range": "± 2398",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 70093,
+            "range": "± 1877",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1354,
+            "range": "± 66",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 73340,
+            "range": "± 6003",
             "unit": "ns/iter"
           }
         ]
