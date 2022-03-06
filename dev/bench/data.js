@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1645834907925,
+  "lastUpdate": 1646537485366,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -16271,6 +16271,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 69748,
             "range": "± 349",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8b2beb5f8cec73ca67aae25fc113326831bdfed5",
+          "message": "Builder API v2 (#373)\n\n* Reworked builder API\r\n\r\n* Reorganize module structure\r\n\r\n* BREAKING CHANGE: Remove unused feature flag\r\n\r\n* Make child and dynamic child directly accept a ElementBuilder\r\n\r\n* Add a dyn_if helper method\r\n\r\n* Add doc tests for new builder API\r\n\r\n* Remove old builder API\r\n\r\n* Test all features in CI\r\n\r\n* Fix doctests\r\n\r\n* Fix clippy lint\r\n\r\n* Use new format strings syntax\r\n\r\n* Do not test all features in miri\r\n\r\n* Fix clippy lints",
+          "timestamp": "2022-03-05T19:27:52-08:00",
+          "tree_id": "cbb3a6a78eeb4c4e838390936152c4d039f1fef0",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/8b2beb5f8cec73ca67aae25fc113326831bdfed5"
+        },
+        "date": 1646537483907,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 41577,
+            "range": "± 64",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 261041,
+            "range": "± 342",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 41352,
+            "range": "± 188",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 65540,
+            "range": "± 3948",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1271,
+            "range": "± 9",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 61640,
+            "range": "± 255",
             "unit": "ns/iter"
           }
         ]
