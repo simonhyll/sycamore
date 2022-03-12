@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647118299076,
+  "lastUpdate": 1647118372025,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -16931,6 +16931,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 75381,
             "range": "± 3319",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "distinct": true,
+          "id": "b219e85c7f71fe5457fe62c52290d4367e83702e",
+          "message": "Make top-level crate re-exports more consistent",
+          "timestamp": "2022-03-12T12:48:52-08:00",
+          "tree_id": "de9fb3580a5eb2840120b3d377cfdb1772f75474",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/b219e85c7f71fe5457fe62c52290d4367e83702e"
+        },
+        "date": 1647118370479,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 42450,
+            "range": "± 82",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 261981,
+            "range": "± 351",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 45463,
+            "range": "± 303",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 64323,
+            "range": "± 190",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1251,
+            "range": "± 5",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 69785,
+            "range": "± 90",
             "unit": "ns/iter"
           }
         ]
