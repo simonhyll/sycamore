@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1646717309482,
+  "lastUpdate": 1647099845123,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -16751,6 +16751,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 70153,
             "range": "± 212",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "45f73e7bb3b74418ebb17c2b3153d25bc9bf9296",
+          "message": "Allocate the contexts HashMap on the heap to reduce struct size (#381)",
+          "timestamp": "2022-03-12T07:40:19-08:00",
+          "tree_id": "876de261db4283b56ac5a3bcc8677a673656e351",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/45f73e7bb3b74418ebb17c2b3153d25bc9bf9296"
+        },
+        "date": 1647099843574,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 42507,
+            "range": "± 72",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 269220,
+            "range": "± 315",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 46862,
+            "range": "± 201",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 66181,
+            "range": "± 131",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1238,
+            "range": "± 9",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 69447,
+            "range": "± 206",
             "unit": "ns/iter"
           }
         ]
