@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647107112996,
+  "lastUpdate": 1647118299076,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -16871,6 +16871,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 69968,
             "range": "± 226",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "534bda2d14027cc304a686ef20fc62f13101f04c",
+          "message": "Clearlify specify behavior of GenericNode::add_class to split multiple classes at whitespace (#383)",
+          "timestamp": "2022-03-12T12:47:14-08:00",
+          "tree_id": "68fa446fd271c28c3e0efc299db77b032d1448ad",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/534bda2d14027cc304a686ef20fc62f13101f04c"
+        },
+        "date": 1647118297585,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 47464,
+            "range": "± 2198",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 294348,
+            "range": "± 10562",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 49816,
+            "range": "± 2935",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 68476,
+            "range": "± 3032",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1441,
+            "range": "± 117",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 75381,
+            "range": "± 3319",
             "unit": "ns/iter"
           }
         ]
