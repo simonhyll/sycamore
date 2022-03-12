@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647099845123,
+  "lastUpdate": 1647107112996,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -16811,6 +16811,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 69447,
             "range": "± 206",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "747825d15d90afe4ce00fbb2fcc14e6d8a15f6c7",
+          "message": "Refactor sycamore-reactive crate to unify `Scope` and `BoundedScope` (#382)\n\n* Refactor sycamore-reactive crate\r\n\r\n* Update sycamore and sycamore-router crates\r\n\r\n* Update website, docs, examples\r\n\r\n* Update trybuild tests\r\n\r\n* Update docs that were missed earlier",
+          "timestamp": "2022-03-12T09:41:13-08:00",
+          "tree_id": "5deeadae014a979b4ca07ca4e33fe92c6cb778e5",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/747825d15d90afe4ce00fbb2fcc14e6d8a15f6c7"
+        },
+        "date": 1647107111341,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 42484,
+            "range": "± 69",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 262684,
+            "range": "± 407",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 45638,
+            "range": "± 140",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 66038,
+            "range": "± 102",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1248,
+            "range": "± 2",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 69968,
+            "range": "± 226",
             "unit": "ns/iter"
           }
         ]
