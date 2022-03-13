@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647118487098,
+  "lastUpdate": 1647194528774,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -17051,6 +17051,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 81118,
             "range": "± 4945",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "distinct": true,
+          "id": "9fdff59b9c0c399cd8793ae73fe7fd1e7d7ec3a3",
+          "message": "Fix missing needs_ctx check in top-level dyn node",
+          "timestamp": "2022-03-13T10:58:29-07:00",
+          "tree_id": "e7a2835f44d8a19495c189664978f75cfb3e7355",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/9fdff59b9c0c399cd8793ae73fe7fd1e7d7ec3a3"
+        },
+        "date": 1647194528128,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 43073,
+            "range": "± 32",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 258639,
+            "range": "± 960",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 46552,
+            "range": "± 172",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 56693,
+            "range": "± 621",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1111,
+            "range": "± 6",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 61696,
+            "range": "± 168",
             "unit": "ns/iter"
           }
         ]
