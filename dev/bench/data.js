@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647534925636,
+  "lastUpdate": 1647543038964,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -17171,6 +17171,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 80865,
             "range": "± 1665",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "923feeb29c7f44b70e9f7de570a7e71f40e9879a",
+          "message": "Add support for SVG (#389)",
+          "timestamp": "2022-03-17T11:46:29-07:00",
+          "tree_id": "35ae302ecee97b0f0a9174428e0a529949ead3ba",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/923feeb29c7f44b70e9f7de570a7e71f40e9879a"
+        },
+        "date": 1647543038185,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 50949,
+            "range": "± 455",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 308831,
+            "range": "± 6292",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 54055,
+            "range": "± 1196",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 75506,
+            "range": "± 1674",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1428,
+            "range": "± 52",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 75563,
+            "range": "± 2150",
             "unit": "ns/iter"
           }
         ]
