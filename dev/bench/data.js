@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647575677929,
+  "lastUpdate": 1647661943954,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -17350,6 +17350,66 @@ window.BENCHMARK_DATA = {
           {
             "name": "ssr_medium",
             "value": 66113,
+            "range": "± 98",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fde706a0420b8995fdc2dac3c3ca7aa2369321bf",
+          "message": "Fix and simplify SsrNode and HydrateNode codegen in view! macro (#392)\n\n* Use a function to prevent code duplication for getting initial node\r\n\r\n* Remove unused comment\r\n\r\n* Fix unused variable warning when hydrate is disabled\r\n\r\n* Do not duplicate codegen for Component and Dyn with SSR",
+          "timestamp": "2022-03-18T20:48:42-07:00",
+          "tree_id": "4e729041d986f6795612a008cf9777997b782a35",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/fde706a0420b8995fdc2dac3c3ca7aa2369321bf"
+        },
+        "date": 1647661943314,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 43633,
+            "range": "± 110",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 260704,
+            "range": "± 391",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 46661,
+            "range": "± 45",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 65471,
+            "range": "± 332",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1237,
+            "range": "± 5",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 65406,
             "range": "± 98",
             "unit": "ns/iter"
           }
