@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647899803058,
+  "lastUpdate": 1647903441671,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -17891,6 +17891,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 77719,
             "range": "± 234",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f471b189ce69216ad3eb0cba11bfc3b57764eb44",
+          "message": "Add Signal::modify to mutate a value (#399)\n\n* Add Signal::modify to mutate a value\r\n\r\n* Use .modify() in todomvc example",
+          "timestamp": "2022-03-21T15:53:04-07:00",
+          "tree_id": "72f98ae9c23c00326135d451256947dab8f81a23",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/f471b189ce69216ad3eb0cba11bfc3b57764eb44"
+        },
+        "date": 1647903440320,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 44634,
+            "range": "± 3479",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 302569,
+            "range": "± 24707",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 58271,
+            "range": "± 2738",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 80093,
+            "range": "± 6502",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1318,
+            "range": "± 99",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 65685,
+            "range": "± 4477",
             "unit": "ns/iter"
           }
         ]
