@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647897949655,
+  "lastUpdate": 1647899765424,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -17771,6 +17771,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 63888,
             "range": "± 133",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cfd697b5e8cee38c3f2b324e671be88b1c9d1b20",
+          "message": "Implement AddAssign and friends for Signal (#397)\n\n* Implement AddAssign and friends for Signal\r\n\r\n* Make GenericNode::event generic over closure type\r\n\r\n* Add missing import to doctest\r\n\r\n* Add tests and fix implementation for Mul and Div",
+          "timestamp": "2022-03-21T14:52:10-07:00",
+          "tree_id": "1a7f78917304a5c00ca1681f85603798c0ec0871",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/cfd697b5e8cee38c3f2b324e671be88b1c9d1b20"
+        },
+        "date": 1647899763931,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 40066,
+            "range": "± 527",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 281310,
+            "range": "± 346",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 45573,
+            "range": "± 59",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 64407,
+            "range": "± 82",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1411,
+            "range": "± 37",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 64045,
+            "range": "± 117",
             "unit": "ns/iter"
           }
         ]
