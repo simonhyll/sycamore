@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647813883541,
+  "lastUpdate": 1647891247911,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -17531,6 +17531,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 81566,
             "range": "± 83",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8eecc8fcc29739dc9e8226cb5210ccfe09ba0758",
+          "message": "Change reactive hooks from associated methods to free functions (#396)\n\n* Replace `ctx` with `cx`\r\n\r\n* Fix trybuild tests\r\n\r\n* Change associated methods to free-standing functions\r\n\r\n* Remove ScopeMotionExt\r\n\r\n* Remove final extension traits\r\n\r\n* Fix remaining compile errors\r\n\r\n* Fix intra-doc links and cargo fmt",
+          "timestamp": "2022-03-21T12:30:05-07:00",
+          "tree_id": "0f70e7e5a962fc9acb6b740fb44d99f7468fad88",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/8eecc8fcc29739dc9e8226cb5210ccfe09ba0758"
+        },
+        "date": 1647891247161,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 43582,
+            "range": "± 285",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 259340,
+            "range": "± 334",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 48431,
+            "range": "± 32",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 66136,
+            "range": "± 317",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1224,
+            "range": "± 2",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 66339,
+            "range": "± 79",
             "unit": "ns/iter"
           }
         ]
