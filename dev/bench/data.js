@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647907322554,
+  "lastUpdate": 1648745531245,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -18011,6 +18011,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 66494,
             "range": "± 109",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "982b83f59fd08fb06b12d47a2552af968065785c",
+          "message": "Bump minimist from 1.2.5 to 1.2.6 in /website (#401)\n\nBumps [minimist](https://github.com/substack/minimist) from 1.2.5 to 1.2.6.\r\n- [Release notes](https://github.com/substack/minimist/releases)\r\n- [Commits](https://github.com/substack/minimist/compare/1.2.5...1.2.6)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: minimist\r\n  dependency-type: indirect\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\n\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2022-03-31T09:48:28-07:00",
+          "tree_id": "54cda9b97ad30edcead7b4f78d7c7288359c20fc",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/982b83f59fd08fb06b12d47a2552af968065785c"
+        },
+        "date": 1648745528703,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 43288,
+            "range": "± 113",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 254523,
+            "range": "± 356",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 48808,
+            "range": "± 86",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 68483,
+            "range": "± 846",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1211,
+            "range": "± 5",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 65368,
+            "range": "± 104",
             "unit": "ns/iter"
           }
         ]
