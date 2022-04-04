@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1648941465210,
+  "lastUpdate": 1649092079761,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -18131,6 +18131,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 65310,
             "range": "± 69",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "30574112+danielalvsaaker@users.noreply.github.com",
+            "name": "danielalvsaaker",
+            "username": "danielalvsaaker"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ff34f393db357100c9d7e9c2def4ab45d73b2f23",
+          "message": "Allow field init shorthand for component prop fields (#403)\n\n* Allow field init shorthand\r\n\r\n* Test for field init shorthand",
+          "timestamp": "2022-04-04T10:03:38-07:00",
+          "tree_id": "e2049eb0d3679c5e5471f12520503a880de7bfed",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/ff34f393db357100c9d7e9c2def4ab45d73b2f23"
+        },
+        "date": 1649092078335,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 51109,
+            "range": "± 1809",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 311555,
+            "range": "± 11052",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 55448,
+            "range": "± 3526",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 77524,
+            "range": "± 3485",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1456,
+            "range": "± 55",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 75734,
+            "range": "± 3968",
             "unit": "ns/iter"
           }
         ]
