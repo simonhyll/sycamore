@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1649301939227,
+  "lastUpdate": 1649303511068,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -18251,6 +18251,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 74207,
             "range": "± 4224",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "distinct": true,
+          "id": "aad3684157f19a68a6b96cee8e8b432098fe6a0f",
+          "message": "Make nodes rendered in suspense also run in hydration context",
+          "timestamp": "2022-04-06T20:47:56-07:00",
+          "tree_id": "4270c31d90efcf8ff5376727ef0b781448bec964",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/aad3684157f19a68a6b96cee8e8b432098fe6a0f"
+        },
+        "date": 1649303509654,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 40909,
+            "range": "± 563",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 286962,
+            "range": "± 601",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 43930,
+            "range": "± 61",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 65073,
+            "range": "± 126",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1299,
+            "range": "± 36",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 62937,
+            "range": "± 342",
             "unit": "ns/iter"
           }
         ]
