@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1649543915168,
+  "lastUpdate": 1649543925048,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -18431,6 +18431,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 63713,
             "range": "± 96",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "distinct": true,
+          "id": "85274bf24177c8ff3ebf3f66f8354fcd6739c25c",
+          "message": "Add a workflow for checking with cargo fmt",
+          "timestamp": "2022-04-09T15:34:45-07:00",
+          "tree_id": "8e155ae7333df5ba1353aa5e05adec549ed542f3",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/85274bf24177c8ff3ebf3f66f8354fcd6739c25c"
+        },
+        "date": 1649543923670,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 38160,
+            "range": "± 227",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 283553,
+            "range": "± 480",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 46228,
+            "range": "± 364",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 66563,
+            "range": "± 116",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1382,
+            "range": "± 155",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 64383,
+            "range": "± 97",
             "unit": "ns/iter"
           }
         ]
