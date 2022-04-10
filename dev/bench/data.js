@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1649545288011,
+  "lastUpdate": 1649634199261,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -18611,6 +18611,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 63909,
             "range": "± 156",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "aaabe008b990336f772b1f3d9d9919f87e5b306f",
+          "message": "Slightly simplify the http-request example\n\nRemove useless div and useless class attribute",
+          "timestamp": "2022-04-10T16:39:20-07:00",
+          "tree_id": "05fc613c6b020836014fc4c63a200ae1273a655c",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/aaabe008b990336f772b1f3d9d9919f87e5b306f"
+        },
+        "date": 1649634198645,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 42785,
+            "range": "± 136",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 240634,
+            "range": "± 335",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 43195,
+            "range": "± 251",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 205297,
+            "range": "± 2140",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1287,
+            "range": "± 1",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 66361,
+            "range": "± 181",
             "unit": "ns/iter"
           }
         ]
