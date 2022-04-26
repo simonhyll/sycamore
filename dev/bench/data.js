@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1650564566307,
+  "lastUpdate": 1651011750654,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -18911,6 +18911,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 64907,
             "range": "± 131",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "97b4ecbfd91aec5ae0c9cbe2589465f10cf80f55",
+          "message": "Fix some macro edge cases and improve macro hygiene/diagnostics (#413)\n\n* Slightly improve component macro diagnostics\r\n\r\n* Make async component macro more hygienic\r\n\r\n* Add component with props UI tests\r\n\r\n* Improve component macro diagnostic spans\r\n\r\n* Run UI tests for coverage\r\n\r\n* Add TRYBUILD: wip to code coverage CI\r\n\r\n* TRYBUILD=overwrite\r\n\r\n* Better span for dangerously_set_inner_html with children error\r\n\r\n* cargo fmt\r\n\r\n* cargo clippy",
+          "timestamp": "2022-04-26T15:17:43-07:00",
+          "tree_id": "aac7acd4e3d95394b689f17d72b9bb8ee88444f7",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/97b4ecbfd91aec5ae0c9cbe2589465f10cf80f55"
+        },
+        "date": 1651011749885,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 49846,
+            "range": "± 2672",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 327873,
+            "range": "± 16729",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 57550,
+            "range": "± 3228",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 80118,
+            "range": "± 4798",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1486,
+            "range": "± 66",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 78405,
+            "range": "± 4140",
             "unit": "ns/iter"
           }
         ]
