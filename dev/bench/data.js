@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1651200547215,
+  "lastUpdate": 1651203556123,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -19031,6 +19031,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 79576,
             "range": "± 576",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7365d2a5efeb3b8bcbe528d531cba97318e1e1e2",
+          "message": "Use bumpalo instead of hand-rolled arena implementation (#407)\n\n* Use bumpalo instead of hand-rolled arena implementation\r\n\r\n* allow using arena to allocate arbitrary boxes\r\n\r\n* Fix compile errors\r\n\r\n* Appease clippy\r\n\r\n* Allocate the EffectState in the arena\r\n\r\n* Fix UI test\r\n\r\n* Remove unused field from ScopeInner",
+          "timestamp": "2022-04-28T20:34:31-07:00",
+          "tree_id": "93f9949b9ce999171bb940d0ec93a6d44e966351",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/7365d2a5efeb3b8bcbe528d531cba97318e1e1e2"
+        },
+        "date": 1651203554658,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 51462,
+            "range": "± 2391",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 317850,
+            "range": "± 10796",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 62518,
+            "range": "± 4402",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 95512,
+            "range": "± 9519",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1525,
+            "range": "± 38",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 76425,
+            "range": "± 9327",
             "unit": "ns/iter"
           }
         ]
