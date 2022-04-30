@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1651347373912,
+  "lastUpdate": 1651351194246,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -19211,6 +19211,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 80586,
             "range": "± 5314",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "864f158717a03723c091789764e8f7c8c8a6b1e0",
+          "message": "Add NoHydrate and NoSsr utility components (#409)\n\n* Add NoHydrate and NoSsr components\r\n\r\n* Add missing feature flags\r\n\r\n* Fixes\r\n\r\n* Add missing hydration completed\r\n\r\n* Add example usage to examples/hydrate\r\n\r\n* Add some tests for NoHydrate and NoSsr\r\n\r\n* cargo fmt",
+          "timestamp": "2022-04-30T13:35:59-07:00",
+          "tree_id": "c3d1fac7a69ae5ea2f7cbc722579f923b72729a6",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/864f158717a03723c091789764e8f7c8c8a6b1e0"
+        },
+        "date": 1651351193556,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 40000,
+            "range": "± 2114",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 246620,
+            "range": "± 13283",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 52660,
+            "range": "± 3206",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 78993,
+            "range": "± 5755",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1213,
+            "range": "± 65",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 63926,
+            "range": "± 3543",
             "unit": "ns/iter"
           }
         ]
