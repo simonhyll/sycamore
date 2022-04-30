@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1651203556123,
+  "lastUpdate": 1651285082723,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -19091,6 +19091,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 76425,
             "range": "± 9327",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b0b0bbb7c14e41e67f9cf1e55b6d7151c98ee7d7",
+          "message": "Simplify `Suspense` code and add finished callback to `transition.start` (#414)\n\n* Simplify Suspense code and add additional param to transition.start\r\n\r\n* Fix comment\r\n\r\n* Improve transition unit test",
+          "timestamp": "2022-04-29T19:13:16-07:00",
+          "tree_id": "b826a2cfaced29a3a7f891be70497359f8aec7e2",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/b0b0bbb7c14e41e67f9cf1e55b6d7151c98ee7d7"
+        },
+        "date": 1651285081219,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 50049,
+            "range": "± 1815",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 312209,
+            "range": "± 16772",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 58032,
+            "range": "± 3540",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 89119,
+            "range": "± 5894",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1407,
+            "range": "± 69",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 74589,
+            "range": "± 4499",
             "unit": "ns/iter"
           }
         ]
