@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1651353755474,
+  "lastUpdate": 1651951708252,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -19511,6 +19511,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 57783,
             "range": "± 295",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "30574112+danielalvsaaker@users.noreply.github.com",
+            "name": "danielalvsaaker",
+            "username": "danielalvsaaker"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c9e7623a366c92ffcfa7bc362cddee395500e44c",
+          "message": "Handle parsing of child view with attributes (#417)\n\nTest with component using function syntax\r\n\r\nCo-authored-by: danielalvsaaker <daniel.alvsaaker@protonmail.com>",
+          "timestamp": "2022-05-07T12:23:54-07:00",
+          "tree_id": "fbac4f3db6a61c31643765f0b126a8f08c41b587",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/c9e7623a366c92ffcfa7bc362cddee395500e44c"
+        },
+        "date": 1651951706508,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 39211,
+            "range": "± 327",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 280470,
+            "range": "± 271",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 51946,
+            "range": "± 543",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 79624,
+            "range": "± 498",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1360,
+            "range": "± 3",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 64704,
+            "range": "± 207",
             "unit": "ns/iter"
           }
         ]
