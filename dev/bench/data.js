@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1651951708252,
+  "lastUpdate": 1652071556257,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -19571,6 +19571,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 64704,
             "range": "± 207",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m.cripps1@uni.brighton.ac.uk",
+            "name": "mc1098",
+            "username": "mc1098"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "49135bde95d6903507fbac1c67ab8c699f92b7a0",
+          "message": "Add the http-request-builder example (#418)\n\n* Add the http-request-builder example\r\n\r\nThis adds the same example as the http-request but using the builder\r\nsyntax.\r\n\r\nMost of the code is the same and a fair degree of the change from macro\r\nto builder syntax is trivial. Using `Suspense` with the builder syntax\r\nis not covered in the documentation. This also shows off that structs\r\nthat derive `Prop` have public builders which may be required using the\r\nbuilder syntax - such as with `SuspenseProps`.\r\n\r\n* Add http-request-builder to examples README table\r\n\r\n* Update title in index.html\r\n\r\nMake title more consistent with other examples\r\n\r\nCo-authored-by: Luke Chu <37006668+lukechu10@users.noreply.github.com>",
+          "timestamp": "2022-05-08T21:40:43-07:00",
+          "tree_id": "1a6512a83bfe1a7bc660defc28ad27e19c7f389b",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/49135bde95d6903507fbac1c67ab8c699f92b7a0"
+        },
+        "date": 1652071554914,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 52580,
+            "range": "± 2058",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 316806,
+            "range": "± 9690",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 63840,
+            "range": "± 2538",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 97466,
+            "range": "± 3703",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1561,
+            "range": "± 108",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 82477,
+            "range": "± 4045",
             "unit": "ns/iter"
           }
         ]
