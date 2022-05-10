@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652071556257,
+  "lastUpdate": 1652198529312,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -19631,6 +19631,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 82477,
             "range": "± 4045",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m.cripps1@uni.brighton.ac.uk",
+            "name": "mc1098",
+            "username": "mc1098"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ffa26f73de8ab139e50457525bc287bda5653612",
+          "message": "Fix destructuring async props (#419)\n\n* Add failing trybuild test\r\n\r\nAdds a test for destructed struct pattern using an async component that\r\nis currently failing just like in #410.\r\n\r\n* Fix destructuring props in async components\r\n\r\nThis change fixes `#[component]` proc macro generation to support the\r\nstruct destructured pattern. This was different than non-async structs as\r\nasync structs are converted into non-async structs.\r\n\r\n* Remove map and unwrap early\r\n\r\nWe can unwrap so avoid the nesting with map and just unwrap immediately\r\nand perform the match on the prop argument.\r\n\r\n* Remove incorrect comment regarding sync args\r\n\r\n* Improve test to include generic and lifetimes\r\n\r\nReplace the simple destructuring test with the more complicated one to\r\nshow that destructuring works even with lifetimes and generics\r\nincluded.\r\n\r\n* Fix async component test\r\n\r\nMakes the `AsyncComponentWithPropDestructuring` function actually async..",
+          "timestamp": "2022-05-10T08:57:33-07:00",
+          "tree_id": "4aa87c18b77259fd4035d38d6ec82ee47cffccf2",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/ffa26f73de8ab139e50457525bc287bda5653612"
+        },
+        "date": 1652198527874,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 44841,
+            "range": "± 3417",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 282410,
+            "range": "± 13868",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 58849,
+            "range": "± 5035",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 90924,
+            "range": "± 3851",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1355,
+            "range": "± 72",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 73606,
+            "range": "± 3421",
             "unit": "ns/iter"
           }
         ]
