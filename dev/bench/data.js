@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652554270521,
+  "lastUpdate": 1652720162573,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -19751,6 +19751,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 79671,
             "range": "± 1212",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "arctic_hen7@pm.me",
+            "name": "arctic_hen7",
+            "username": "arctic-hen7"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3b3e39e57afcfc5432bc62733cf93038b7b2592a",
+          "message": "Add support for `body` (#420)\n\n* feat: added support for `body` element\r\n\r\n* Fix http-request-builder example\r\n\r\nThe previous change added the `<body>` html tag which conflicts with the identifiers used in this example\r\n\r\n* Satisfy cargo clippy\r\n\r\nCo-authored-by: Luke Chu <lukewchu@outlook.com>",
+          "timestamp": "2022-05-16T09:50:59-07:00",
+          "tree_id": "db7680777b3ec78e02a287adf1c41d3e2c7b05ce",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/3b3e39e57afcfc5432bc62733cf93038b7b2592a"
+        },
+        "date": 1652720161513,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 55658,
+            "range": "± 2452",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 341514,
+            "range": "± 17191",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 69653,
+            "range": "± 2487",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 103584,
+            "range": "± 5362",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1631,
+            "range": "± 126",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 83717,
+            "range": "± 4079",
             "unit": "ns/iter"
           }
         ]
