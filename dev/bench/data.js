@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652720162573,
+  "lastUpdate": 1652748530390,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -19811,6 +19811,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 83717,
             "range": "± 4079",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3293b1d4744113e68486f9daee3579e2f3cabf5e",
+          "message": "Extract `sycamore` crate into multiple crates (#416)\n\n* Create a new sycamore-core crate\r\n\r\n* Fix compile errors\r\n\r\n* Add missing feature flag\r\n\r\n* Move noderef.rs back to sycamore crate\r\n\r\n* Fix remove logic in reconcile_fragments\r\n\r\n* Fix doctests\r\n\r\n* perf: remove useless dyn_into() when static also works\r\n\r\n* Update builder API to use free functions\r\n\r\nThis is a BREAKING CHANGE\r\n\r\n* Create sycamore-web crate\r\n\r\n* Move more modules into sycamore-core crate\r\n\r\n* Restructure wip\r\n\r\n* cargo fmt\r\n\r\n* Move DomNode, HydrateNode, and SsrNode to sycamore-web\r\n\r\n* Fix compile errors when rebasing\r\n\r\n* Restructure sycamore-web exports\r\n\r\n* Fix import ambiguitiy\r\n\r\n* Fix doctests for builder API\r\n\r\n* Fix builder intra-doc link\r\n\r\n* Make SsrNode internal representation private\r\n\r\n* Remove pub from Comment\r\n\r\n* Doc fixes\r\n\r\n* Make sycamore compile without default features\r\n\r\n* Fix compile with no default features on wasm32\r\n\r\n* Fix suspense unit test\r\n\r\n* Fix tests\r\n\r\n* Fix tests and update CI config\r\n\r\n* cargo fmt\r\n\r\n* Fix compile error in motion.rs\r\n\r\n* Fix conditional compilation",
+          "timestamp": "2022-05-16T17:43:54-07:00",
+          "tree_id": "9ff1b449708ff1382db501de23c7f10ed101a4b4",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/3293b1d4744113e68486f9daee3579e2f3cabf5e"
+        },
+        "date": 1652748528934,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 51176,
+            "range": "± 3552",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 322712,
+            "range": "± 7929",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 62908,
+            "range": "± 2177",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 99030,
+            "range": "± 3060",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1515,
+            "range": "± 51",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 78689,
+            "range": "± 1978",
             "unit": "ns/iter"
           }
         ]
