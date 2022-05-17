@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652748530390,
+  "lastUpdate": 1652749234476,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -19871,6 +19871,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 78689,
             "range": "± 1978",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0df5861919a9b4ad6d87b728d23e5bea986db00b",
+          "message": "Use create_ref instead of on_cleanup for allocating event handlers (#421)\n\n* Use create_ref instead of on_cleanup for allocating event handlers\r\n\r\n* Remove unsafe transmute of pointer lifetime",
+          "timestamp": "2022-05-16T17:55:36-07:00",
+          "tree_id": "a372a9fc334866b78f95a9af9ac839b9c58772a9",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/0df5861919a9b4ad6d87b728d23e5bea986db00b"
+        },
+        "date": 1652749233028,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 54234,
+            "range": "± 2371",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 314358,
+            "range": "± 7684",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 61922,
+            "range": "± 2253",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 97212,
+            "range": "± 2718",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1543,
+            "range": "± 35",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 79864,
+            "range": "± 1954",
             "unit": "ns/iter"
           }
         ]
