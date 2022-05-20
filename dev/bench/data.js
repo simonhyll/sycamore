@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652749386155,
+  "lastUpdate": 1653067548263,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -19991,6 +19991,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 64363,
             "range": "± 128",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "977baf051e9e40323a85dd0fbd88e2c7f8bb3a5d",
+          "message": "Remove some allocations in `sycamore-reactive` (#422)\n\n* Make SignalEmitter::trigger_subscribers slightly faster\r\n\r\n* Reset subscribers in trigger_subscribers\r\n\r\n* Use create_ref instead of Rc in create_selector_with\r\n\r\n* Use ahash in sycamore-reactive\r\n\r\n* Remove useless box around create_effect_scoped\r\n\r\n* Simplify map_indexed and map_keyed\r\n\r\nThis removes quite a few allocations, Rcs, and unsafe\r\n\r\n* Make bump private in arena",
+          "timestamp": "2022-05-20T10:20:47-07:00",
+          "tree_id": "4cf204306e0cfd80ed5c52a0657d2b5d847c4888",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/977baf051e9e40323a85dd0fbd88e2c7f8bb3a5d"
+        },
+        "date": 1653067547371,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 40875,
+            "range": "± 2726",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 248319,
+            "range": "± 20784",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 66704,
+            "range": "± 3425",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 89585,
+            "range": "± 6408",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1491,
+            "range": "± 106",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 78791,
+            "range": "± 4845",
             "unit": "ns/iter"
           }
         ]
