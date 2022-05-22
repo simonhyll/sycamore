@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1653078289669,
+  "lastUpdate": 1653233711527,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -20111,6 +20111,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 85145,
             "range": "± 5545",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m.cripps1@uni.brighton.ac.uk",
+            "name": "mc1098",
+            "username": "mc1098"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "24f12846c8328c85352887c7e15ccceb842e005e",
+          "message": "Remove `builder` feature doc on website (#425)\n\nRemove builder feature doc on website\r\n\r\nThe builder feature flag was removed in #416 but the website still\r\ncontained a sentence about adding the feature flag before using the\r\nbuilder syntax.",
+          "timestamp": "2022-05-22T08:30:46-07:00",
+          "tree_id": "07b4335b67d6bfb2847dc6eaae6fad22b9617831",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/24f12846c8328c85352887c7e15ccceb842e005e"
+        },
+        "date": 1653233710365,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 36049,
+            "range": "± 325",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 205394,
+            "range": "± 509",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 54309,
+            "range": "± 41",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 76541,
+            "range": "± 69",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1287,
+            "range": "± 2",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 66574,
+            "range": "± 380",
             "unit": "ns/iter"
           }
         ]
