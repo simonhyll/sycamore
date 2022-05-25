@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1653233711527,
+  "lastUpdate": 1653516878593,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -20171,6 +20171,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 66574,
             "range": "± 380",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m.cripps1@uni.brighton.ac.uk",
+            "name": "mc1098",
+            "username": "mc1098"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bc30dfa81d47a1c7c19b6f5f0b2e12838e27a719",
+          "message": "Fix `scope_depth` to return 0 for root scope (#424)\n\n* Add `scope_depth` tests\r\n\r\n* Fix `scope_depth` to return 0 for root scope\r\n\r\n* Update to simpler implementation\r\n\r\n* Add the SAFETY comment back in",
+          "timestamp": "2022-05-25T15:10:13-07:00",
+          "tree_id": "8ce70794b79c444729b4806482d00ca668a161b9",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/bc30dfa81d47a1c7c19b6f5f0b2e12838e27a719"
+        },
+        "date": 1653516877130,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 34249,
+            "range": "± 324",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 227435,
+            "range": "± 1962",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 52346,
+            "range": "± 65",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 72522,
+            "range": "± 408",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1354,
+            "range": "± 2",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 64647,
+            "range": "± 124",
             "unit": "ns/iter"
           }
         ]
