@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1653516878593,
+  "lastUpdate": 1653598488705,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -20231,6 +20231,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 64647,
             "range": "± 124",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "94eef354f3bc6b7e416caa67225264d292e0553a",
+          "message": "Add missing crates to rustdoc command for website",
+          "timestamp": "2022-05-26T20:50:08Z",
+          "tree_id": "81292389f7f17f8e82c36afe2cd93fbbd969c35d",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/94eef354f3bc6b7e416caa67225264d292e0553a"
+        },
+        "date": 1653598487984,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 36392,
+            "range": "± 145",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 206906,
+            "range": "± 1096",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 55275,
+            "range": "± 262",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 74178,
+            "range": "± 775",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1277,
+            "range": "± 3",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 66453,
+            "range": "± 70",
             "unit": "ns/iter"
           }
         ]
