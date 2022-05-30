@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1653598488705,
+  "lastUpdate": 1653948080165,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -20291,6 +20291,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 66453,
             "range": "± 70",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m.cripps1@uni.brighton.ac.uk",
+            "name": "mc1098",
+            "username": "mc1098"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5f58fe37599e125fdc4a85cbd51e4e1c3d359791",
+          "message": "Fix removing old nodes from parent (#428)\n\nFix removal node condition in reconcile_fragments",
+          "timestamp": "2022-05-30T14:57:01-07:00",
+          "tree_id": "27e25a9ccbfa7929ca65a1f14b4ccb986485bc94",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/5f58fe37599e125fdc4a85cbd51e4e1c3d359791"
+        },
+        "date": 1653948079434,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 36338,
+            "range": "± 17",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 214722,
+            "range": "± 121",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 55021,
+            "range": "± 315",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 74363,
+            "range": "± 169",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1306,
+            "range": "± 13",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 69142,
+            "range": "± 130",
             "unit": "ns/iter"
           }
         ]
