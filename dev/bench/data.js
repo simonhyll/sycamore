@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1653948080165,
+  "lastUpdate": 1654699200264,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -20351,6 +20351,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 69142,
             "range": "± 130",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m.cripps1@uni.brighton.ac.uk",
+            "name": "mc1098",
+            "username": "mc1098"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "215a0152d04146de718fa91170bd4770684a0e3c",
+          "message": "Fix default Unit property on Component (#431)\n\n* Fix default unit Property on Component\r\n\r\nRemoves the adding of a default `()` unit property when none are\r\nspecified in the Component definition.\r\n\r\nFixes the above assumption in the `view` macro codegen.\r\n\r\n* Remove Prop impl for Unit",
+          "timestamp": "2022-06-08T07:35:32-07:00",
+          "tree_id": "1ef2928481bf7d807919b37b8a72b34baed67b5c",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/215a0152d04146de718fa91170bd4770684a0e3c"
+        },
+        "date": 1654699198759,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 31751,
+            "range": "± 168",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 215284,
+            "range": "± 212",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 45625,
+            "range": "± 908",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 58003,
+            "range": "± 36",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1325,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 63309,
+            "range": "± 90",
             "unit": "ns/iter"
           }
         ]
