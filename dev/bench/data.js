@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1654699200264,
+  "lastUpdate": 1654963299901,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -20411,6 +20411,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 63309,
             "range": "± 90",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m.cripps1@uni.brighton.ac.uk",
+            "name": "mc1098",
+            "username": "mc1098"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "53ec292b33bac79b68c43cbe21d9062b40dc4929",
+          "message": "Add a generic `from_web_sys` function (#432)\n\n* Add a generic from_web_sys function\r\n\r\nAdds a new function that creates a `GenericNode` from a\r\n`web_sys::Element` and depending on the type will reuse\r\nthe element in the DOM.\r\n\r\n* Fix suggestions\r\n\r\n* Fix panic case and imports",
+          "timestamp": "2022-06-11T08:57:24-07:00",
+          "tree_id": "3f1f9fd72965308bd38664bab5d543df08f87752",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/53ec292b33bac79b68c43cbe21d9062b40dc4929"
+        },
+        "date": 1654963298761,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 36394,
+            "range": "± 41",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 205556,
+            "range": "± 189",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 48699,
+            "range": "± 301",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 61046,
+            "range": "± 725",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1279,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 65711,
+            "range": "± 352",
             "unit": "ns/iter"
           }
         ]
