@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1654963299901,
+  "lastUpdate": 1655087344100,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -20471,6 +20471,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 65711,
             "range": "± 352",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m.cripps1@uni.brighton.ac.uk",
+            "name": "mc1098",
+            "username": "mc1098"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8b68c9df0c49b0f84153424d8dd6401c82b72155",
+          "message": "Add doc test example for `from_web_sys` (#436)\n\n* Add doc test example for `from_web_sys`\r\n\r\n* Remove comment line in example\r\n\r\nCo-authored-by: Luke <37006668+lukechu10@users.noreply.github.com>\r\n\r\nCo-authored-by: Luke <37006668+lukechu10@users.noreply.github.com>",
+          "timestamp": "2022-06-12T19:23:58-07:00",
+          "tree_id": "8b9c2e0b4ceebed6cf09862808ac415858a98745",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/8b68c9df0c49b0f84153424d8dd6401c82b72155"
+        },
+        "date": 1655087343292,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 44622,
+            "range": "± 3664",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 248342,
+            "range": "± 14994",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 57764,
+            "range": "± 4508",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 70811,
+            "range": "± 6854",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1634,
+            "range": "± 97",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 78626,
+            "range": "± 4265",
             "unit": "ns/iter"
           }
         ]
