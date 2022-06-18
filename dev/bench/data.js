@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1655087344100,
+  "lastUpdate": 1655585036066,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -20531,6 +20531,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 78626,
             "range": "± 4265",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "43726912+mc1098@users.noreply.github.com",
+            "name": "mc1098",
+            "username": "mc1098"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "95a7e14ab52ad12329fc27728e8c428650b931df",
+          "message": "Add the `prop:*` directive to the view macro (#435)\n\n* Add the `prop:*` directive to the view macro\r\n\r\nAdds the ability to set properties directly in the view macro that\r\naccepts any value that can be coverted into the `JsValue`.\r\n\r\nSupports both static and dynamic values in the same manner that\r\nattributes do currently.\r\n\r\nUpdates some of the examples to use the new directive when the type can\r\nbe used directly as a property instead of cloning or serializing the\r\nvalue.\r\n\r\n* Add test for static property value\r\n\r\nChecks that literal values are accepted as property values.\r\n\r\nCo-authored-by: mc1098 <m.cripps1@uni.brighton.ac.uk>",
+          "timestamp": "2022-06-18T13:38:54-07:00",
+          "tree_id": "4e46daefe94763ed2058dc7dba50084413ec8fad",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/95a7e14ab52ad12329fc27728e8c428650b931df"
+        },
+        "date": 1655585034875,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 39112,
+            "range": "± 2007",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 229889,
+            "range": "± 10344",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 54326,
+            "range": "± 3530",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 69156,
+            "range": "± 3797",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1498,
+            "range": "± 87",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 75547,
+            "range": "± 4857",
             "unit": "ns/iter"
           }
         ]
