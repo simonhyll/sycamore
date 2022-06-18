@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1655585036066,
+  "lastUpdate": 1655588628299,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -20591,6 +20591,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 75547,
             "range": "± 4857",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alsuren@gmail.com",
+            "name": "David Laban",
+            "username": "alsuren"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "adc2abb59bd595da694438c0ae906eec797a8385",
+          "message": "Add .dangerously_set_inner_html() to the builder API (#378)\n\n* add .inner_html() builder method\r\n\r\n* Fix errors and add dynamic variant\r\n\r\n* Update builder example title\r\n\r\n* Fix doctests\r\n\r\nCo-authored-by: Luke <37006668+lukechu10@users.noreply.github.com>",
+          "timestamp": "2022-06-18T21:39:29Z",
+          "tree_id": "afdb4fbd05df34119708bdefb36bf2b3f19a8a43",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/adc2abb59bd595da694438c0ae906eec797a8385"
+        },
+        "date": 1655588626959,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 35649,
+            "range": "± 15",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 207005,
+            "range": "± 98",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 47437,
+            "range": "± 24",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 59455,
+            "range": "± 495",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1276,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 66414,
+            "range": "± 84",
             "unit": "ns/iter"
           }
         ]
