@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1655588628299,
+  "lastUpdate": 1655767817341,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -20651,6 +20651,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 66414,
             "range": "± 84",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "43726912+mc1098@users.noreply.github.com",
+            "name": "mc1098",
+            "username": "mc1098"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1c06c9b41bfd6e657bfc7f5d12d4c40b8d006a20",
+          "message": "Add `trigger_subscribers` to `Signal` (#438)\n\n* Add `trigger_subscribers` to `Signal`\r\n\r\n* Update internals to use `self.trigger_subscribers`\r\n\r\nCo-authored-by: mc1098 <m.cripps1@uni.brighton.ac.uk>",
+          "timestamp": "2022-06-20T16:25:44-07:00",
+          "tree_id": "e03ec7a6680cebad21a084c188ee07ed351fac84",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/1c06c9b41bfd6e657bfc7f5d12d4c40b8d006a20"
+        },
+        "date": 1655767816152,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 35688,
+            "range": "± 16",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 217130,
+            "range": "± 11531",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 48381,
+            "range": "± 23",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 52028,
+            "range": "± 229",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1116,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 58105,
+            "range": "± 50",
             "unit": "ns/iter"
           }
         ]
