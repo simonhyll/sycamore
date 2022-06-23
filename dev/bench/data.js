@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1655767817341,
+  "lastUpdate": 1656005750263,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -20711,6 +20711,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 58105,
             "range": "± 50",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "arctic_hen7@pm.me",
+            "name": "arctic_hen7",
+            "username": "arctic-hen7"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c8deaeef8e7a1ee263a025c12bb8b80830ec82c3",
+          "message": "Add Debug implementations for all public items (#441)\n\nfeat: added Debug implementations to everything",
+          "timestamp": "2022-06-23T10:31:24-07:00",
+          "tree_id": "5f916ad799c261bcf2a30e9099f81f7e0ac09331",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/c8deaeef8e7a1ee263a025c12bb8b80830ec82c3"
+        },
+        "date": 1656005749097,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 30291,
+            "range": "± 200",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 224904,
+            "range": "± 757",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 44693,
+            "range": "± 136",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 57719,
+            "range": "± 201",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1428,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 62827,
+            "range": "± 133",
             "unit": "ns/iter"
           }
         ]
