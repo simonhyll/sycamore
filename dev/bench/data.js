@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1656005750263,
+  "lastUpdate": 1656259720434,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -20771,6 +20771,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 62827,
             "range": "± 133",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "arctic_hen7@pm.me",
+            "name": "arctic_hen7",
+            "username": "arctic-hen7"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a865f15d5aec851df5d8f9cb8aa055355006a37a",
+          "message": "Add support for `struct` `Route`s (#434)\n\n* feat: added support for `struct` `Route`s\r\n\r\nThis makes artic-hen7/perseus#151 and more advanced custom router\r\npatterns feasible.\r\n\r\n* fix: made `try_from_segments()` not take `&self`\r\n\r\nThis stuffed up some tests, and I'm fairly certain it actually isn't necessary.\r\n\r\n* fix: used absolute path to `Default` in proc macro\r\n\r\n* refactor: moved comment",
+          "timestamp": "2022-06-26T09:04:01-07:00",
+          "tree_id": "28ccc11282e749f6ad08c3e6808fe740222ba6c9",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/a865f15d5aec851df5d8f9cb8aa055355006a37a"
+        },
+        "date": 1656259719642,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 31842,
+            "range": "± 213",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 214438,
+            "range": "± 140",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 44583,
+            "range": "± 155",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 57931,
+            "range": "± 59",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1385,
+            "range": "± 2",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 63020,
+            "range": "± 125",
             "unit": "ns/iter"
           }
         ]
