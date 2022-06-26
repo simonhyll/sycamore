@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1656259720434,
+  "lastUpdate": 1656259835553,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -20831,6 +20831,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 63020,
             "range": "± 125",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "43726912+mc1098@users.noreply.github.com",
+            "name": "mc1098",
+            "username": "mc1098"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "496eef3ef89d1acac2a659fba6b0c131a7179ae0",
+          "message": "Update boolean attributes in the view macro (#440)\n\n* Update boolean attributes in the view macro\r\n\r\nThis adds some attributes but mostly removes attributes which are not\r\npart of the standard.\r\n\r\n* Add WHATWG link for attributes\r\n\r\nCo-authored-by: mc1098 <m.cripps1@uni.brighton.ac.uk>",
+          "timestamp": "2022-06-26T09:05:57-07:00",
+          "tree_id": "76b42a7117030665b0cd3d2963fb61f13827e7cf",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/496eef3ef89d1acac2a659fba6b0c131a7179ae0"
+        },
+        "date": 1656259834433,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 30472,
+            "range": "± 180",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 212892,
+            "range": "± 141",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 44589,
+            "range": "± 133",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 57826,
+            "range": "± 75",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1400,
+            "range": "± 1",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 62965,
+            "range": "± 107",
             "unit": "ns/iter"
           }
         ]
