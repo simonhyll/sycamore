@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1656260728381,
+  "lastUpdate": 1656288250504,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -20951,6 +20951,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 66178,
             "range": "± 98",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "43726912+mc1098@users.noreply.github.com",
+            "name": "mc1098",
+            "username": "mc1098"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "41af3c101413f834d55e0893d856a38d196d894f",
+          "message": "Add debug impl for RouterBaseProps (#442)",
+          "timestamp": "2022-06-26T16:59:31-07:00",
+          "tree_id": "d3be6267c3a891d8d46b1f99c636c6a57c68eb46",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/41af3c101413f834d55e0893d856a38d196d894f"
+        },
+        "date": 1656288249687,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 31378,
+            "range": "± 71",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 221881,
+            "range": "± 129",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 46391,
+            "range": "± 90",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 57206,
+            "range": "± 206",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1358,
+            "range": "± 17",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 63232,
+            "range": "± 99",
             "unit": "ns/iter"
           }
         ]
