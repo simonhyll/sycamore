@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1656473580414,
+  "lastUpdate": 1656519010984,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -21131,6 +21131,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 78351,
             "range": "± 1142",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "eugenesvk@users.noreply.github.com",
+            "name": "Evgeny",
+            "username": "eugenesvk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b6414fa9ffe6debc9245e0df5111e89eeece2fea",
+          "message": "Fix typo in docs/next/basics/iteration.md (#445)\n\nAdded missing curly brackets to a list node inside a view! macro",
+          "timestamp": "2022-06-29T09:05:28-07:00",
+          "tree_id": "fad6a42813b26ffc582a006a5b6de58d8632964b",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/b6414fa9ffe6debc9245e0df5111e89eeece2fea"
+        },
+        "date": 1656519010102,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 35529,
+            "range": "± 30",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 208789,
+            "range": "± 67",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 49064,
+            "range": "± 58",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 60585,
+            "range": "± 89",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1263,
+            "range": "± 1",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 65876,
+            "range": "± 64",
             "unit": "ns/iter"
           }
         ]
