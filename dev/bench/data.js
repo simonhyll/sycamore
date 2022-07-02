@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1656519074123,
+  "lastUpdate": 1656792666252,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -21251,6 +21251,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 78473,
             "range": "± 4548",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "43726912+mc1098@users.noreply.github.com",
+            "name": "mc1098",
+            "username": "mc1098"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "62f63c4437396fdf85a9f7335664bf6c7ca4e27b",
+          "message": "Refactor web tests (#449)\n\n* Refactor web tests\r\n\r\nAdd utility function for querying elements and html element by selectors.\r\nAdd utility macro for asserting the text content of an element.\r\nAdd assertion to the svg test.\r\n\r\n* Add documentation for new functions and macro",
+          "timestamp": "2022-07-02T13:06:16-07:00",
+          "tree_id": "a0e45427f323482cf9d08c7c1b4c8d076e71887e",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/62f63c4437396fdf85a9f7335664bf6c7ca4e27b"
+        },
+        "date": 1656792665402,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 35497,
+            "range": "± 25",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 207818,
+            "range": "± 72",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 48441,
+            "range": "± 148",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 61017,
+            "range": "± 179",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1269,
+            "range": "± 1",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 65728,
+            "range": "± 360",
             "unit": "ns/iter"
           }
         ]
