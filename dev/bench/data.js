@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1656792666252,
+  "lastUpdate": 1657867175429,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -21311,6 +21311,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 65728,
             "range": "± 360",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "johansmitsnl@users.noreply.github.com",
+            "name": "Johan Smits",
+            "username": "johansmitsnl"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "167d3e19a90f12ceaaa3b3a086c959bf76988503",
+          "message": "Improve router and components documentation (#451)\n\n* Add Clippy warning non_snake_case to the components\r\n\r\n* Clear confusion on sub routes not need to have name Route derive might\r\nsuggest.\r\n\r\n* Describe how to make nested components\r\n\r\n* Describe how to use default prop values\r\n\r\n* Implemented suggestion of danielalvsaaker\r\n\r\n* More document changes\r\n\r\n* Make changes also to the next documentation\r\n\r\n* Fix indentation in view! macro\r\n\r\nIndentation should be 4 spaces like normal Rust code.\r\n\r\nCo-authored-by: Luke <37006668+lukechu10@users.noreply.github.com>",
+          "timestamp": "2022-07-14T23:35:35-07:00",
+          "tree_id": "4ecbdc727d4da228d713552b54e39457d2218339",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/167d3e19a90f12ceaaa3b3a086c959bf76988503"
+        },
+        "date": 1657867174609,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 35290,
+            "range": "± 27",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 212913,
+            "range": "± 146",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 48185,
+            "range": "± 124",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 59623,
+            "range": "± 210",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1287,
+            "range": "± 2",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 65767,
+            "range": "± 73",
             "unit": "ns/iter"
           }
         ]
