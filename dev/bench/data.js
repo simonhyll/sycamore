@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1658804494901,
+  "lastUpdate": 1658804883436,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -21491,6 +21491,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 66031,
             "range": "± 2011",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9fbee1c9b74ff8b2438b1faf1a6206efef81eba4",
+          "message": "Fix some clippy lints (#462)\n\nFix some new clippy lints in new rustc version",
+          "timestamp": "2022-07-25T20:03:54-07:00",
+          "tree_id": "60882294e6a6190de28cb8e0f72095d1dfd48095",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/9fbee1c9b74ff8b2438b1faf1a6206efef81eba4"
+        },
+        "date": 1658804882086,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 35337,
+            "range": "± 140",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 207239,
+            "range": "± 255",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 42926,
+            "range": "± 792",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 53067,
+            "range": "± 829",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1264,
+            "range": "± 6",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 65168,
+            "range": "± 78",
             "unit": "ns/iter"
           }
         ]
