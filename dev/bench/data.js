@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1658804883436,
+  "lastUpdate": 1658805180379,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -21551,6 +21551,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 65168,
             "range": "± 78",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "53735aab9ef72b98439b4d2eaeb85a97f7f32775",
+          "message": "Relax restriction on `T` in `Keyed` from `Eq` to `PartialEq` (#461)\n\nRelax restriction of T in Keyed from Eq to PartialEq",
+          "timestamp": "2022-07-25T20:09:04-07:00",
+          "tree_id": "2ae3e286802ffa0601047f824178e8de97e808b7",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/53735aab9ef72b98439b4d2eaeb85a97f7f32775"
+        },
+        "date": 1658805179196,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 35309,
+            "range": "± 74",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 209434,
+            "range": "± 11715",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 42910,
+            "range": "± 90",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 60936,
+            "range": "± 102",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1270,
+            "range": "± 3",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 67002,
+            "range": "± 89",
             "unit": "ns/iter"
           }
         ]
