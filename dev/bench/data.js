@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1658266628586,
+  "lastUpdate": 1658804494901,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -21431,6 +21431,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 80132,
             "range": "± 3459",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "49d30f15524e660e52437b278bdf103706f77589",
+          "message": "Parse new view syntax (#460)\n\n* Add ui test for missing `()` and `{}` after element\r\n\r\n* Parse new component syntax\r\n\r\n* Parse new component syntax\r\n\r\n* Fix ssr benchmark compiler error",
+          "timestamp": "2022-07-25T19:57:20-07:00",
+          "tree_id": "6092f687f183c2f041bb109101c1c8d80ea3b9f3",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/49d30f15524e660e52437b278bdf103706f77589"
+        },
+        "date": 1658804494113,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 35310,
+            "range": "± 159",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 211800,
+            "range": "± 261",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 49337,
+            "range": "± 160",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 61101,
+            "range": "± 358",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1264,
+            "range": "± 2",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 66031,
+            "range": "± 2011",
             "unit": "ns/iter"
           }
         ]
