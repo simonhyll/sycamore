@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1658805301495,
+  "lastUpdate": 1658888238513,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -21671,6 +21671,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 63830,
             "range": "± 139",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2bb51c3b5a4cef21d4d1b0e6757096b3a2b5e08b",
+          "message": "Add more examples/doc tests to rustdocs and update book to latest syntax (#463)\n\n* Add some doc comments and doc tests\r\n\r\n* Update book to latest syntax",
+          "timestamp": "2022-07-26T19:13:33-07:00",
+          "tree_id": "03b79173c1d6295c488624a544fe258e67a7f5c1",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/2bb51c3b5a4cef21d4d1b0e6757096b3a2b5e08b"
+        },
+        "date": 1658888237717,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 30579,
+            "range": "± 102",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 220099,
+            "range": "± 226",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 44618,
+            "range": "± 26",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 59617,
+            "range": "± 2430",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1368,
+            "range": "± 1",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 63112,
+            "range": "± 133",
             "unit": "ns/iter"
           }
         ]
