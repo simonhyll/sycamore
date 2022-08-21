@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1658888238513,
+  "lastUpdate": 1661098620989,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -21731,6 +21731,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 63112,
             "range": "± 133",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "75be1ca489c63203f0b83afcc0df8398cb71aaab",
+          "message": "Update MSRV to 1.63.0 and remove some unsafes (#470)\n\n* Update MSRV to 1.63.0\r\n\r\n* Remove some unsafes from sycamore-reactive\r\n\r\n* BREAKING: remove redundant Children::call_with_bounded_scope\r\n\r\n* Fix clippy lints introduced in 1.63.0\r\n\r\n* Update ui tests for 1.63.0",
+          "timestamp": "2022-08-21T09:13:11-07:00",
+          "tree_id": "b871c4e629142eb6fa5890346a0b9956f88af144",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/75be1ca489c63203f0b83afcc0df8398cb71aaab"
+        },
+        "date": 1661098619915,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 31644,
+            "range": "± 109",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 223569,
+            "range": "± 212",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 46660,
+            "range": "± 41",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 58560,
+            "range": "± 105",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1338,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 62833,
+            "range": "± 104",
             "unit": "ns/iter"
           }
         ]
