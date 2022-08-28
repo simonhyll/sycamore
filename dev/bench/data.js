@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1661605537313,
+  "lastUpdate": 1661686922182,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -21911,6 +21911,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 78933,
             "range": "± 1608",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fd83a30ad6b56d975ebd8b688a103aa92c92e3c9",
+          "message": "v0.8\n\nPrepare v0.8 release (#473)\r\n\r\n* Add migration guide for v0.7 to v0.8\r\n\r\n* Rename migration_guides to migration\r\n\r\n* Update changelog\r\n\r\n* Update Cargo.toml descriptions\r\n\r\n* Add release post\r\n\r\n* Update version number.",
+          "timestamp": "2022-08-28T13:38:11+02:00",
+          "tree_id": "3d337b05fcb3a2b272cb45071f4803ec0bb3d35c",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/fd83a30ad6b56d975ebd8b688a103aa92c92e3c9"
+        },
+        "date": 1661686921381,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 30712,
+            "range": "± 132",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 223267,
+            "range": "± 248",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 48097,
+            "range": "± 99",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 59144,
+            "range": "± 246",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1363,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 63123,
+            "range": "± 106",
             "unit": "ns/iter"
           }
         ]
