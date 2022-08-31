@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1661933440543,
+  "lastUpdate": 1661939075590,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -22271,6 +22271,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 65744,
             "range": "± 110",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "github35764891676564198441@oli-obk.de",
+            "name": "Oli Scherer",
+            "username": "oli-obk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5de8f760aea42200c7c31bb3a137b148355e4d76",
+          "message": "Forward compatibility fix for breakage due to a soundness fix in rustc (#475)",
+          "timestamp": "2022-08-31T11:40:16+02:00",
+          "tree_id": "ebfed9e84e94c1b93be090ae5d866ad62522f984",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/5de8f760aea42200c7c31bb3a137b148355e4d76"
+        },
+        "date": 1661939074216,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 41737,
+            "range": "± 748",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 242715,
+            "range": "± 13714",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 59160,
+            "range": "± 1506",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 70152,
+            "range": "± 1879",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1575,
+            "range": "± 20",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 77322,
+            "range": "± 970",
             "unit": "ns/iter"
           }
         ]
