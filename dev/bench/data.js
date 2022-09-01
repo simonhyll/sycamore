@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1661962062464,
+  "lastUpdate": 1662034946569,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -22391,6 +22391,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 65499,
             "range": "± 864",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "distinct": true,
+          "id": "1d13fda9e1939d543de8bb866608edf4827f8d8c",
+          "message": "Update routing.md docs to 0.8 component props syntax",
+          "timestamp": "2022-09-01T14:17:44+02:00",
+          "tree_id": "ba806d090af80300e188e7498288c24a01d2edf2",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/1d13fda9e1939d543de8bb866608edf4827f8d8c"
+        },
+        "date": 1662034944023,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 41779,
+            "range": "± 3995",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 267303,
+            "range": "± 16389",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 59395,
+            "range": "± 2986",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 74740,
+            "range": "± 2621",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1586,
+            "range": "± 43",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 81039,
+            "range": "± 5498",
             "unit": "ns/iter"
           }
         ]
