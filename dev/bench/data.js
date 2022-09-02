@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1662041311051,
+  "lastUpdate": 1662133629370,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -22511,6 +22511,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 65904,
             "range": "± 803",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "distinct": true,
+          "id": "4bddf4bfb42afd919afda42adaeef225254bf333",
+          "message": "Upgrade ahash dependency to 0.8",
+          "timestamp": "2022-09-02T17:42:15+02:00",
+          "tree_id": "56804b66f9c837deb582cf8007f978e134f4caf4",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/4bddf4bfb42afd919afda42adaeef225254bf333"
+        },
+        "date": 1662133626975,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 40838,
+            "range": "± 3604",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 249073,
+            "range": "± 29017",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 63419,
+            "range": "± 7061",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 73345,
+            "range": "± 5228",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1698,
+            "range": "± 136",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 80983,
+            "range": "± 6953",
             "unit": "ns/iter"
           }
         ]
