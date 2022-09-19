@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1662277166501,
+  "lastUpdate": 1663598809580,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -22871,6 +22871,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 78803,
             "range": "± 7367",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b48d3f2b52f20d367764203ec6d9b9a97e0a6d57",
+          "message": "Inline props (#486)\n\n* Implement inline props\r\n\r\n* Update some examples to use inline_props\r\n\r\n* Add doc comments to generated prop structs\r\n\r\n* Add section in book about inline_props\r\n\r\n* cargo fmt\r\n\r\n* Add UI test for bad component macro arg",
+          "timestamp": "2022-09-19T16:42:17+02:00",
+          "tree_id": "1f6917bbd86f754d9a7d8706561bd7eb651e1c72",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/b48d3f2b52f20d367764203ec6d9b9a97e0a6d57"
+        },
+        "date": 1663598807184,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 41078,
+            "range": "± 2375",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 309368,
+            "range": "± 14728",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 58135,
+            "range": "± 3217",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 70914,
+            "range": "± 4075",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1510,
+            "range": "± 83",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 74468,
+            "range": "± 3473",
             "unit": "ns/iter"
           }
         ]
