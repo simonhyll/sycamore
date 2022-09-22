@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1663870151837,
+  "lastUpdate": 1663871542199,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -23171,6 +23171,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 61944,
             "range": "± 170",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2a7d015b68af1f49430e8800930c4394d7b7bfc8",
+          "message": "Add a `Html::to_web_sys` method (#490)\n\nAdd a Html::to_web_sys method\r\n\r\nBREAKING: This is technically a breaking change but is minor enough that it doesn't warrant a major release.",
+          "timestamp": "2022-09-22T20:27:39+02:00",
+          "tree_id": "718ed3ae1bfa0b35a9ecbaaf48afbb6e2c4e3b41",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/2a7d015b68af1f49430e8800930c4394d7b7bfc8"
+        },
+        "date": 1663871539740,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 39731,
+            "range": "± 1337",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 258790,
+            "range": "± 10346",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 62685,
+            "range": "± 2260",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 66667,
+            "range": "± 4273",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1477,
+            "range": "± 72",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 72914,
+            "range": "± 3809",
             "unit": "ns/iter"
           }
         ]
