@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664438297471,
+  "lastUpdate": 1665146792967,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -23411,6 +23411,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 77098,
             "range": "± 1428",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "30574112+danielalvsaaker@users.noreply.github.com",
+            "name": "danielalvsaaker",
+            "username": "danielalvsaaker"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8326aa6fa3fb31c5c5e76fabca22db1fdd52bd83",
+          "message": "Improve binding ergonomics for `RcSignal` (#489)\n\n* Allow any signal to be bound\r\n\r\n* Improve signal binding ergonomics for view macro\r\n\r\n* Fix lifetime issue introduced in newer nightly release",
+          "timestamp": "2022-10-07T13:41:59+01:00",
+          "tree_id": "9cb073909d9b8d2b95db541863daa118ab36176b",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/8326aa6fa3fb31c5c5e76fabca22db1fdd52bd83"
+        },
+        "date": 1665146790555,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 37198,
+            "range": "± 1957",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 240567,
+            "range": "± 14916",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 54035,
+            "range": "± 4318",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 61755,
+            "range": "± 2708",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1481,
+            "range": "± 84",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 72599,
+            "range": "± 6180",
             "unit": "ns/iter"
           }
         ]
