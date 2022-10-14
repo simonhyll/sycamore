@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665222298995,
+  "lastUpdate": 1665780768900,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -23531,6 +23531,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 78546,
             "range": "± 229",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "inetpwnz@icloud.com",
+            "name": "Daniel Nehrig",
+            "username": "danielnehrig"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b3e5e42e11dc0a003e24a250f08a5aa65601b21a",
+          "message": "Fix wrong tag names for special cased HTML/SVG tag structs\n\nSigned-off-by: Daniel Nehrig <daniel.nehrig@dnehrig.com>\r\n\r\nSigned-off-by: Daniel Nehrig <daniel.nehrig@dnehrig.com>",
+          "timestamp": "2022-10-14T21:48:44+01:00",
+          "tree_id": "be1c5019f46eb0a2d3cbb3c0f7f8c1f769571c45",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/b3e5e42e11dc0a003e24a250f08a5aa65601b21a"
+        },
+        "date": 1665780768034,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 35643,
+            "range": "± 43",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 216499,
+            "range": "± 241",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 50074,
+            "range": "± 60",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 60848,
+            "range": "± 63",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1279,
+            "range": "± 4",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 66496,
+            "range": "± 92",
             "unit": "ns/iter"
           }
         ]
