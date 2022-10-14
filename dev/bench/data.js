@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665780768900,
+  "lastUpdate": 1665781989031,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -23591,6 +23591,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 66496,
             "range": "± 92",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alexisfontaine@users.noreply.github.com",
+            "name": "Alexis Fontaine",
+            "username": "alexisfontaine"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8870559b94b0655632acb6412c7bd5d7c43eea34",
+          "message": "Rename derive proc-macro `Prop` to `Props` (#503)\n\n* Rename derive proc-macro `Prop` to `Props`\r\n\r\n* Apply suggestions from code review\r\n\r\nCo-authored-by: Luke <37006668+lukechu10@users.noreply.github.com>",
+          "timestamp": "2022-10-14T22:08:08+01:00",
+          "tree_id": "627c0333f388b4d1288651a39d61b236f9b48ec9",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/8870559b94b0655632acb6412c7bd5d7c43eea34"
+        },
+        "date": 1665781986615,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 40807,
+            "range": "± 2038",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 256843,
+            "range": "± 13741",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 57397,
+            "range": "± 22032",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 72093,
+            "range": "± 2937",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1528,
+            "range": "± 123",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 79028,
+            "range": "± 7680",
             "unit": "ns/iter"
           }
         ]
