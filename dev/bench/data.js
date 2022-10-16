@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665948063021,
+  "lastUpdate": 1665948111227,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -23711,6 +23711,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 65194,
             "range": "± 118",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alexisfontaine@users.noreply.github.com",
+            "name": "Alexis Fontaine",
+            "username": "alexisfontaine"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f6331a1e96a051f35f5050d456d68fc2eadcc276",
+          "message": "Rename the derive macro helper attribute `builder` to `prop` (#504)\n\n* Rename the derive macro helper attribute `builder` to `prop`\r\n\r\n* Remove needless borrows",
+          "timestamp": "2022-10-16T20:17:47+01:00",
+          "tree_id": "965ad53a9ff971135f6d746f036e8b8e5adcdd02",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/f6331a1e96a051f35f5050d456d68fc2eadcc276"
+        },
+        "date": 1665948109989,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 30586,
+            "range": "± 141",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 214112,
+            "range": "± 123",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 46169,
+            "range": "± 51",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 57044,
+            "range": "± 150",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1316,
+            "range": "± 4",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 63181,
+            "range": "± 551",
             "unit": "ns/iter"
           }
         ]
