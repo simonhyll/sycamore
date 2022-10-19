@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666077098686,
+  "lastUpdate": 1666207709724,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -23891,6 +23891,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 77712,
             "range": "± 383",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "wainwrightml@gmail.com",
+            "name": "Mark Wainwright",
+            "username": "wainwrightmark"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "abd556cbc02047042dad2ebd04405e455a9b11b2",
+          "message": "Add data binding for valueAsNumber property (#511)\n\n* Added data binding for `valueAsNumber` property\r\n\r\n* Cargo fmt\r\n\r\n* Update examples/number-binding/src/main.rs\r\n\r\nCo-authored-by: Luke <37006668+lukechu10@users.noreply.github.com>\r\n\r\n* Update packages/sycamore/tests/web/main.rs\r\n\r\nCo-authored-by: Luke <37006668+lukechu10@users.noreply.github.com>\r\n\r\n* Update packages/sycamore/tests/web/main.rs\r\n\r\nCo-authored-by: Luke <37006668+lukechu10@users.noreply.github.com>\r\n\r\n* Added number-binding example to README\r\n\r\nCo-authored-by: Luke <37006668+lukechu10@users.noreply.github.com>",
+          "timestamp": "2022-10-19T20:24:05+01:00",
+          "tree_id": "18e783ee8418e8d94c0ce125c27daaeccea7a69c",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/abd556cbc02047042dad2ebd04405e455a9b11b2"
+        },
+        "date": 1666207708625,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 35485,
+            "range": "± 18",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 209019,
+            "range": "± 130",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 49536,
+            "range": "± 41",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 60302,
+            "range": "± 61",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1296,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 65785,
+            "range": "± 439",
             "unit": "ns/iter"
           }
         ]
