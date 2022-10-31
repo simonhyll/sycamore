@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666207709724,
+  "lastUpdate": 1667241489554,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -23951,6 +23951,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 65785,
             "range": "± 439",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5eff5ca3db268963b4070517f9c97428b7f2aaab",
+          "message": "Fix js-framework-benchmark CI (#520)\n\nIt turns out the problem was because the 'package-lock.json' file was missing for 'sycamore' and 'sycamore-baseline'",
+          "timestamp": "2022-10-31T18:33:40Z",
+          "tree_id": "897934bf69496ad745a16697adcf3c3f6fce9d71",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/5eff5ca3db268963b4070517f9c97428b7f2aaab"
+        },
+        "date": 1667241488693,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 35631,
+            "range": "± 22",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 209800,
+            "range": "± 168",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 48395,
+            "range": "± 208",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 60039,
+            "range": "± 121",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1259,
+            "range": "± 1",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 65702,
+            "range": "± 1101",
             "unit": "ns/iter"
           }
         ]
