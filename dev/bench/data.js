@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667526493431,
+  "lastUpdate": 1667689411726,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -24491,6 +24491,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 78693,
             "range": "± 88",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5d49777b4a66fb5730c40898fd2ee8cde15bcdc3",
+          "message": "Simplify the TodoMVC example code (#526)",
+          "timestamp": "2022-11-05T22:59:06Z",
+          "tree_id": "074a08150b2632ed8fe8e673ec4f229445203f51",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/5d49777b4a66fb5730c40898fd2ee8cde15bcdc3"
+        },
+        "date": 1667689410836,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 34731,
+            "range": "± 16",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 192174,
+            "range": "± 128",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 49423,
+            "range": "± 163",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 58882,
+            "range": "± 42",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1277,
+            "range": "± 3",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 65469,
+            "range": "± 280",
             "unit": "ns/iter"
           }
         ]
