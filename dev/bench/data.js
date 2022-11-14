@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667689411726,
+  "lastUpdate": 1668433449036,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -24551,6 +24551,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 65469,
             "range": "± 280",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "faichenshing@gmail.com",
+            "name": "Blaine Hansen",
+            "username": "blainehansen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "568b5b13c80b0296213901cf45c7669a6a496582",
+          "message": "adding `set_fn` and `set_fn_silent` (#529)\n\n* adding change and change_silent\r\n\r\n* using name set_fn to more clearly align with set\r\n\r\n* Use `f` for function name\r\n\r\nCo-authored-by: Luke <37006668+lukechu10@users.noreply.github.com>\r\n\r\n* Use `f` for function name\r\n\r\nCo-authored-by: Luke <37006668+lukechu10@users.noreply.github.com>\r\n\r\nCo-authored-by: Luke <37006668+lukechu10@users.noreply.github.com>",
+          "timestamp": "2022-11-14T13:38:53Z",
+          "tree_id": "4b55c057fbf816b55b74b5a98d40166f9b54897c",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/568b5b13c80b0296213901cf45c7669a6a496582"
+        },
+        "date": 1668433447460,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 38686,
+            "range": "± 2206",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 227716,
+            "range": "± 53611",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 56058,
+            "range": "± 4144",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 65898,
+            "range": "± 3167",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1532,
+            "range": "± 82",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 75683,
+            "range": "± 3216",
             "unit": "ns/iter"
           }
         ]
