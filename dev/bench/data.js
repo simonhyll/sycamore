@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668433449036,
+  "lastUpdate": 1669292226773,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -24611,6 +24611,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 75683,
             "range": "± 3216",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "x774212@gmail.com",
+            "name": "Artem Makoven",
+            "username": "makoven"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a770858ec5736b93c253a32e471a8bbd251dc2d4",
+          "message": "Remove redundant set_value in todomvc example (#530)",
+          "timestamp": "2022-11-24T12:12:13Z",
+          "tree_id": "158e6465fe04601604ca880ceab18944bd7578dc",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/a770858ec5736b93c253a32e471a8bbd251dc2d4"
+        },
+        "date": 1669292225178,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 34735,
+            "range": "± 61",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 191309,
+            "range": "± 373",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 49934,
+            "range": "± 326",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 60225,
+            "range": "± 764",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1283,
+            "range": "± 4",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 65801,
+            "range": "± 267",
             "unit": "ns/iter"
           }
         ]
