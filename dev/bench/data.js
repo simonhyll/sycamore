@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669292226773,
+  "lastUpdate": 1669473736658,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -24671,6 +24671,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 65801,
             "range": "± 267",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9d7af243d5e1c16afe00d87b8496b86e8f9c852c",
+          "message": "Make `create_ref` only allow `T: 'static` (#519)\n\n* Make create_ref only allow `T: 'static`\r\n\r\n* Add missing safety docs\r\n\r\n* Fix web integration tests\r\n\r\n* Remove some old tests and fix effect cleanup\r\n\r\n* Try to fix github actions bench workflow",
+          "timestamp": "2022-11-26T14:37:15Z",
+          "tree_id": "d75dd9172a933457b717297704654163253c5c78",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/9d7af243d5e1c16afe00d87b8496b86e8f9c852c"
+        },
+        "date": 1669473735732,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 40807,
+            "range": "± 3182",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 216399,
+            "range": "± 13896",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 52828,
+            "range": "± 5084",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 67936,
+            "range": "± 4835",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1493,
+            "range": "± 110",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 76389,
+            "range": "± 4394",
             "unit": "ns/iter"
           }
         ]
