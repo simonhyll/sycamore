@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669473736658,
+  "lastUpdate": 1669507698452,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -24731,6 +24731,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 76389,
             "range": "± 4394",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c33a808ade15aeddc600c11746b08f2ecb4fe648",
+          "message": "Update dependencies to latest (#510)\n\n* Update dependencies\r\n\r\n* Update dependencies again\r\n\r\n* Enable cargo resolver v2\r\n\r\n* Use hashbrown instead and add getrandom js feature flag\r\n\r\n* cargo fmt\r\n\r\n* Move benchmark to new crate",
+          "timestamp": "2022-11-27T00:04:04Z",
+          "tree_id": "b8494a8b282829c12e3d8eff1520730af92952a0",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/c33a808ade15aeddc600c11746b08f2ecb4fe648"
+        },
+        "date": 1669507697160,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 31983,
+            "range": "± 178",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 193955,
+            "range": "± 143",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 45982,
+            "range": "± 79",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 56061,
+            "range": "± 73",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1406,
+            "range": "± 2",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 63934,
+            "range": "± 153",
             "unit": "ns/iter"
           }
         ]
