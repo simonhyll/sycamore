@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669507698452,
+  "lastUpdate": 1669648222208,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -24791,6 +24791,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 63934,
             "range": "± 153",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "74dc73c46f67962ed5a7ae8d6816a2269ee8dd6d",
+          "message": "`GenericNode` v2 (#521)\n\n* BREAKING: remove `inner_element` methods from DomNode and HydrateNode\r\n\r\n* BREAKING: Introduce new GenericNodeElements trait for element creation\r\n\r\n* BREAKING: Use Cow<str> for text nodes\r\n\r\nThis should make SSR *significantly* faster\r\n\r\n* cargo fmt\r\n\r\n* Try to fix bench workflow when head repository is different from base\r\n\r\n* Try fixing the benchmark again\r\n\r\n* Make some more methods take Cow<str>\r\n\r\n* BREAKING: Update remaining methods to use Cow<str>\r\n\r\n* Update UI tests\r\n\r\n* Fix builder API doctests\r\n\r\n* Add missing lifetime bounds\r\n\r\n* Convert fn from_web_sys to trait method on Html\r\n\r\n* cargo fmt\r\n\r\n* Make the view base macro backend independent\r\n\r\n* Fix clippy\r\n\r\n* Fix doctest\r\n\r\n* Update UI tests",
+          "timestamp": "2022-11-28T15:06:00Z",
+          "tree_id": "7d21f9ebb1331e8b30212d5b0a0f522836769cd3",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/74dc73c46f67962ed5a7ae8d6816a2269ee8dd6d"
+        },
+        "date": 1669648220891,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 34655,
+            "range": "± 53",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 186792,
+            "range": "± 276",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 50352,
+            "range": "± 134",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 59914,
+            "range": "± 46",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1224,
+            "range": "± 1",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 54541,
+            "range": "± 61",
             "unit": "ns/iter"
           }
         ]
