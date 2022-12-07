@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669715816846,
+  "lastUpdate": 1670454556362,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -24911,6 +24911,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 49394,
             "range": "± 3126",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c52392c09cc1fe57819470d942d735b3210c94fc",
+          "message": "Prevent re-running effects inside themselves (#539)\n\n* add test cases\r\n\r\n* Panic when re-running an effect\r\n\r\n* Fix drop locking location\r\n\r\n* Fix tests\r\n\r\n* Fix compile error caused by merge",
+          "timestamp": "2022-12-07T15:04:16-08:00",
+          "tree_id": "9e6d7122317e4583be513b4f53691e221448b4f0",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/c52392c09cc1fe57819470d942d735b3210c94fc"
+        },
+        "date": 1670454554553,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 40497,
+            "range": "± 4134",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 235312,
+            "range": "± 8629",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 57601,
+            "range": "± 5571",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 66740,
+            "range": "± 12079",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1472,
+            "range": "± 61",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 63896,
+            "range": "± 3385",
             "unit": "ns/iter"
           }
         ]
