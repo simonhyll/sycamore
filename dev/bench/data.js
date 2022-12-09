@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670454556362,
+  "lastUpdate": 1670605917002,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -24971,6 +24971,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 63896,
             "range": "± 3385",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8b1a290839c6d37ab7b0995037dc19e8717dea39",
+          "message": "(Runtime) Templates (#536)\n\n* Templates!\r\n\r\n* Add instantiate_template to GenericNodeElements\r\n\r\n* Split html tags structs and fns\r\n\r\n* Add attributes to template\r\n\r\n* Render template node for DomNode\r\n\r\n* Use hashbrown\r\n\r\n* Remove Debug impl for WalkSteps\r\n\r\n* Optimize DynMarker\r\n\r\n* wip\r\n\r\n* Hydrate using template system\r\n\r\n* counter example works!\r\n\r\n* Fix flag counters order\r\n\r\n* Remove unused function\r\n\r\n* Add missing cx in Dyn codegen\r\n\r\n* Fix some remaining codegen typos\r\n\r\n* Fix bench missing ssr\r\n\r\n* Fix warning in release mode\r\n\r\n* Fix clippy\r\n\r\n* Fix macro hygiene\r\n\r\n* Make all tests compile\r\n\r\n* Update some tests\r\n\r\n* Fix hydration bugs for hydrate\r\n\r\n* Fix hydrate example\r\n\r\n* Update codegen to not warn on non wasm32 arch\r\n\r\n* Delete template example\r\n\r\n* Fix builder hydration keys\r\n\r\n* Fix node macro impl\r\n\r\n* Update bench.yml workflow\r\n\r\n* Update builder_hydrate UI tests\r\n\r\n* Fix hydration with builder API\r\n\r\n* cargo fmt\r\n\r\n* cargo clippy",
+          "timestamp": "2022-12-09T09:07:30-08:00",
+          "tree_id": "d38d5a99d279c82ab85f8b351f42db547a238178",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/8b1a290839c6d37ab7b0995037dc19e8717dea39"
+        },
+        "date": 1670605916098,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 35386,
+            "range": "± 31",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 186730,
+            "range": "± 194",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 50071,
+            "range": "± 302",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 57573,
+            "range": "± 57",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 995,
+            "range": "± 9",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 60057,
+            "range": "± 154",
             "unit": "ns/iter"
           }
         ]
