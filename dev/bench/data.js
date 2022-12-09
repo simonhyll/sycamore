@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670605917002,
+  "lastUpdate": 1670607586725,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -25031,6 +25031,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 60057,
             "range": "± 154",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "30574112+danielalvsaaker@users.noreply.github.com",
+            "name": "danielalvsaaker",
+            "username": "danielalvsaaker"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e217544788f1d655c768a95c72882b902d59c5d2",
+          "message": "Make `Option<T>` prop fields optional by default (#531)\n\n* Make `Option<T>` prop fields optional by default\r\n\r\n* Fix proc-macro hygiene\r\n\r\n* Add optional props UI test\r\n\r\nCo-authored-by: Luke <37006668+lukechu10@users.noreply.github.com>",
+          "timestamp": "2022-12-09T09:34:51-08:00",
+          "tree_id": "e32b83edd7dca643200fe5e88a22ee43811027ea",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/e217544788f1d655c768a95c72882b902d59c5d2"
+        },
+        "date": 1670607584682,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 30400,
+            "range": "± 1484",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 207986,
+            "range": "± 341",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 45319,
+            "range": "± 536",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 54517,
+            "range": "± 613",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1084,
+            "range": "± 1",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 59497,
+            "range": "± 220",
             "unit": "ns/iter"
           }
         ]
