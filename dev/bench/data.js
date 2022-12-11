@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670719820833,
+  "lastUpdate": 1670721152529,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -25151,6 +25151,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 59807,
             "range": "± 92",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4861135f46925f53808ddb21d5f5eb9145013f46",
+          "message": "Implement ToView manually for types (#541)\n\n* Implement ToView manually for types\r\n\r\nThis also allows us to implement ToView for Option<T> and [T] where T: ToView among other types\r\n\r\n* Update docs\r\n\r\n* Add some tests for ToView\r\n\r\n* Remove GenericNode::text_node_int",
+          "timestamp": "2022-12-10T17:07:57-08:00",
+          "tree_id": "3fceb83d762598d80bdcfb9242b565dc8f84a7ee",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/4861135f46925f53808ddb21d5f5eb9145013f46"
+        },
+        "date": 1670721150973,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 35462,
+            "range": "± 75",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 188198,
+            "range": "± 72",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 48049,
+            "range": "± 39",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 57681,
+            "range": "± 38",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1002,
+            "range": "± 1",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 60142,
+            "range": "± 63",
             "unit": "ns/iter"
           }
         ]
