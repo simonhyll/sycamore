@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672809283698,
+  "lastUpdate": 1672812208166,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -25271,6 +25271,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 74999,
             "range": "± 3209",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "14d5897aec4c2753555818c889f8245905de3b5b",
+          "message": "Rename css.md to styling.md and add info on integrations with CSS frameworks (#550)\n\nRename css.md to styling.md and add some more info on integrations with Sycamore",
+          "timestamp": "2023-01-03T22:00:20-08:00",
+          "tree_id": "e447892abfed333c2fbd9afaf4b5fbd1110bae4c",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/14d5897aec4c2753555818c889f8245905de3b5b"
+        },
+        "date": 1672812206802,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 29251,
+            "range": "± 324",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 203179,
+            "range": "± 625",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 47627,
+            "range": "± 1005",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 56572,
+            "range": "± 597",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1061,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 60014,
+            "range": "± 736",
             "unit": "ns/iter"
           }
         ]
