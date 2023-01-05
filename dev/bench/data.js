@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672873329808,
+  "lastUpdate": 1672899046860,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -25391,6 +25391,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 60239,
             "range": "± 397",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e402f11d733c59f02604f6d6ea97a0977c2d90d5",
+          "message": "Typed event data + async event handlers (#553)\n\n* Add typed events\r\n\r\n* Add missing KeyboardEvent feature to web-sys\r\n\r\n* Fix builder API with new event handlers\r\n\r\n* Fix async event handlers\r\n\r\nThere was an erroneous GenericNode bound on the wrong type generic\r\n\r\n* Remove some useless derives\r\n\r\n* Formatting",
+          "timestamp": "2023-01-05T06:07:11Z",
+          "tree_id": "6d4baa87d4c1f4737da73ec88bf900e20366b2ae",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/e402f11d733c59f02604f6d6ea97a0977c2d90d5"
+        },
+        "date": 1672899045817,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 37656,
+            "range": "± 1410",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 212352,
+            "range": "± 7016",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 55826,
+            "range": "± 1683",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 67401,
+            "range": "± 2413",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1157,
+            "range": "± 33",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 67316,
+            "range": "± 2331",
             "unit": "ns/iter"
           }
         ]
