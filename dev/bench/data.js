@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673317822482,
+  "lastUpdate": 1673642778943,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -25517,6 +25517,72 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 60467,
             "range": "± 1195",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "wingertge@gmail.com",
+            "name": "Genna Wingert",
+            "username": "wingertge"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "001ee56094639292bbec28f1648fa1d0e63d9bf7",
+          "message": "Allow passing through attributes on components (#548)\n\n* Add attributes passthrough type\r\n\r\n* Parse prefixed props on components\r\n\r\n* Generate attributes struct from prefixed props\r\n\r\n* Add `Attributes` spread operator\r\n\r\n* Fix passthrough attributes with dashes\r\n\r\n* Fix mistakes in attribute spread code generation\r\n\r\n* Make clippy happy\r\n\r\n* Allow passing non-signal dynamic string values to passthrough arguments\r\n\r\n* Add support for properties\r\n\r\n* Add tests\r\n\r\n* Attempt to update stderr for compile fail tests\r\n\r\n* Add ergonomic `Attributes` API\r\n\r\n* Remove `Deref` and `DerefMut` implementations from `Attributes`\r\n\r\n* Change `Box<dyn Display>` to `Box<dyn FnMut() -> String>`\r\n\r\n* Remove `boxed_event`\r\n\r\n* Move spread code into utility function\r\n\r\n* Extract `AttributeName` from function to reduce code duplication\r\n\r\n* Add lifetime bound to `DynamicStr`\r\n\r\n* Make clippy happy\r\n\r\n* Export `EventDescriptor` so it can be referenced from macros\r\n\r\n* Update `AttributeArgs` for new event syntax\r\n\r\n* Fix WASM compile error\r\n\r\n* Improve error message for attribute type parsing\r\n\r\n* Remove redundant debug derive\r\n\r\n* Revert last change to make linter happy\r\n\r\n* Add attributes passthrough example\r\n\r\n* Add attribute passthrough page to the documentation\r\n\r\n* Only strip attribute prefix if it's `attr`\r\n\r\n* Move prefix to codegen to fix events\r\n\r\n* Make attributes optional by default\r\n\r\n* Update docs and example\r\n\r\n* Wrap attributes map in RefCell for more ergonomic usage\r\n\r\n* Change leftover instances of `&mut self` to `&self`\r\n\r\n* Make dynamic boolean attributes work properly\r\n\r\n* Use peek instead of error map for parse error handling\r\n\r\n* Fix up docs page\r\n\r\n* Fix code cleanliness issues\r\n\r\n* Revert accidentally included change\r\n\r\n* Fix docs on props derive macro\r\n\r\n* Use `lookahead.error()` instead of manual error message\r\n\r\nCo-authored-by: Luke <37006668+lukechu10@users.noreply.github.com>\r\n\r\n* Remove unnecessary lookahead\r\n\r\n* Fix typo\r\n\r\n* Remove `Into<bool>` implementations for signal\r\n\r\n* Move `event` implementation to `GenericNode`\r\n\r\n* Remove `event` from hydrate node and SSR node\r\n\r\n* Add safety comment above unsafe block\r\n\r\n* Remove unnecessary transmute\r\n\r\n* Fix typo\r\n\r\n* Remove unnecessary block\r\n\r\n* Remove unused imports\r\n\r\n* Fix non-dynamic boolean attributes\r\n\r\nCo-authored-by: Luke <37006668+lukechu10@users.noreply.github.com>",
+          "timestamp": "2023-01-13T20:42:53Z",
+          "tree_id": "23d80a1c7cfb36540f12c582d0d3a97ce33cbdab",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/001ee56094639292bbec28f1648fa1d0e63d9bf7"
+        },
+        "date": 1673642777271,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 29002,
+            "range": "± 196",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 208091,
+            "range": "± 182",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 44962,
+            "range": "± 1129",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 54976,
+            "range": "± 317",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 117,
+            "range": "± 5",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1067,
+            "range": "± 1",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 60040,
+            "range": "± 163",
             "unit": "ns/iter"
           }
         ]
