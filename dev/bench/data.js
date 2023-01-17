@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673642778943,
+  "lastUpdate": 1673976207895,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -25583,6 +25583,72 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 60040,
             "range": "± 163",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "etonomick@gmail.com",
+            "name": "Valery Stepanov",
+            "username": "wa1aric"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6cecd1a0c477179a223544eafa6a24a1593ce86f",
+          "message": "Add wasm-bindgen + JS Interop example (#558)\n\n* Example of JS code next to Sycamore\r\n\r\n* Add example to workspace\r\n\r\n* Fix formatting\r\n\r\n* Rename JS file\r\n\r\n* Readme update\r\n\r\n* Fully fixed formatting",
+          "timestamp": "2023-01-17T17:19:58Z",
+          "tree_id": "01f496550d36bc01dd669297a11f1b40be335ad0",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/6cecd1a0c477179a223544eafa6a24a1593ce86f"
+        },
+        "date": 1673976206982,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 32729,
+            "range": "± 229",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 187855,
+            "range": "± 85",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 48970,
+            "range": "± 30",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 59319,
+            "range": "± 37",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 131,
+            "range": "± 3",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1002,
+            "range": "± 1",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 59829,
+            "range": "± 205",
             "unit": "ns/iter"
           }
         ]
