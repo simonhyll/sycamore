@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673976207895,
+  "lastUpdate": 1674828061527,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -25649,6 +25649,72 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 59829,
             "range": "± 205",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "wingertge@gmail.com",
+            "name": "Genna Wingert",
+            "username": "wingertge"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5f1ee457536e1b0b7bb35834732e288e55cb7e0b",
+          "message": "Add unique ID generation hook (#565)\n\nIntroduce the `create_unique_id` hook.",
+          "timestamp": "2023-01-27T13:56:28Z",
+          "tree_id": "704c8d8abab1befe36d6079010c5473fe824fc74",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/5f1ee457536e1b0b7bb35834732e288e55cb7e0b"
+        },
+        "date": 1674828059746,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 42784,
+            "range": "± 2848",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 256123,
+            "range": "± 50329",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 67276,
+            "range": "± 8538",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 83434,
+            "range": "± 7143",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 209,
+            "range": "± 110",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1477,
+            "range": "± 134",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 81120,
+            "range": "± 7136",
             "unit": "ns/iter"
           }
         ]
