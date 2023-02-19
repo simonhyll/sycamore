@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675113262822,
+  "lastUpdate": 1676847076459,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -25781,6 +25781,72 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 61348,
             "range": "± 83",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "97768473+StarSapien@users.noreply.github.com",
+            "name": "StarSapien",
+            "username": "StarSapien"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ce74cb52f2f46ef285c10101b85a49e6bfbaa3f5",
+          "message": "Fix typo in docs for `hydrate_to`\n\nFix intra-doc link linking to wrong item.",
+          "timestamp": "2023-02-19T22:46:53Z",
+          "tree_id": "4153ca54716b5529a5d81f25dc08ed4450b241cd",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/ce74cb52f2f46ef285c10101b85a49e6bfbaa3f5"
+        },
+        "date": 1676847074817,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 43414,
+            "range": "± 2169",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 245907,
+            "range": "± 14342",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 60653,
+            "range": "± 28529",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 70538,
+            "range": "± 4159",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 201,
+            "range": "± 38",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1242,
+            "range": "± 61",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 73468,
+            "range": "± 4906",
             "unit": "ns/iter"
           }
         ]
