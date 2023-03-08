@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676847076459,
+  "lastUpdate": 1678307522220,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -25847,6 +25847,72 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 73468,
             "range": "± 4906",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ca166e9be1a8cba7bdf93a8a50807b3625b17247",
+          "message": "chore: fix formatting and clippy lints (#582)\n\n* cargo fmt\r\n\r\n* Fix clippy lints",
+          "timestamp": "2023-03-08T20:28:08Z",
+          "tree_id": "e1d96fdba4f988947cf771a17ab27db13b83cecc",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/ca166e9be1a8cba7bdf93a8a50807b3625b17247"
+        },
+        "date": 1678307520837,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 29086,
+            "range": "± 1200",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 190701,
+            "range": "± 7108",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 49024,
+            "range": "± 119",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 58110,
+            "range": "± 176",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 127,
+            "range": "± 3",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 981,
+            "range": "± 5",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 60841,
+            "range": "± 83",
             "unit": "ns/iter"
           }
         ]
