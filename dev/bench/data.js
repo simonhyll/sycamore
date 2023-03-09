@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678307522220,
+  "lastUpdate": 1678321621859,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -25913,6 +25913,72 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 60841,
             "range": "± 83",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "05f2368c70061301426c229c990d4a2d4357eb51",
+          "message": "Update render util tests and add nested dyn test (#583)\n\n* Update render util tests and add nested dyn test\r\n\r\n* cargo fmt",
+          "timestamp": "2023-03-09T00:21:45Z",
+          "tree_id": "31c21f3d184f2f50e210ee9fa9317b31fcde2e9a",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/05f2368c70061301426c229c990d4a2d4357eb51"
+        },
+        "date": 1678321620226,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 36581,
+            "range": "± 727",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 244391,
+            "range": "± 17099",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 62306,
+            "range": "± 3620",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 74866,
+            "range": "± 5897",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 210,
+            "range": "± 51",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1282,
+            "range": "± 55",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 77397,
+            "range": "± 2049",
             "unit": "ns/iter"
           }
         ]
