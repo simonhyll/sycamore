@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678321621859,
+  "lastUpdate": 1678325839127,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -25979,6 +25979,72 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 77397,
             "range": "± 2049",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "wingertge@gmail.com",
+            "name": "Genna Wingert",
+            "username": "wingertge"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4eb5852d67cf45665d6bf957aaa534f33c961129",
+          "message": "Fix panic with nested dyn views (#573)\n\n* Remove dynamic view loop to fix panic\r\n\r\n* Add regression test case\r\n\r\n* Add extra test case for nested dyn views\r\n\r\n---------\r\n\r\nCo-authored-by: lukechu10 <37006668+lukechu10@users.noreply.github.com>",
+          "timestamp": "2023-03-09T01:33:20Z",
+          "tree_id": "3c8fdacabd6d4d5e3062e23dbbc645842ea8015a",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/4eb5852d67cf45665d6bf957aaa534f33c961129"
+        },
+        "date": 1678325838176,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 29001,
+            "range": "± 92",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 187636,
+            "range": "± 230",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 48572,
+            "range": "± 180",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 57696,
+            "range": "± 631",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 139,
+            "range": "± 2",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1022,
+            "range": "± 13",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 60801,
+            "range": "± 425",
             "unit": "ns/iter"
           }
         ]
